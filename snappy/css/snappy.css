@@ -1,0 +1,389 @@
+body{
+    text-transform: capitalize;
+    }
+    /*-----------wrapper start-------------------------*/
+.banner-section{
+    margin: 0;
+    padding: 0;
+}
+            /*-----------------header start-------------------------*/
+.header{
+    background-color: #f1c716;
+    display: flex;
+    width:100%;
+}
+.head-logo1{
+    padding: 20px;
+    margin: 20px;
+    width: 15%;
+}
+.navigation{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+.active a{
+    color: red;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head-logo2{
+    float: right;
+    width: 15%;
+    background-color: orangered;
+}
+.head-logo2 h1{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
+   /*-----------header end------------------------*/
+   /*-----------pattern start-------------------------*/
+.pattern-bg{
+    display: flex;
+    width: 100%;
+}
+.pattern-logo{
+}
+.text-bg {
+    padding: 20px;
+    margin: 20px;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-bg span{
+    color: red;
+}
+        /*-----------pattern end-------------------------*/
+        /*-----------marketing start-------------------------*/
+.marketing{
+    width: 100%;
+    text-align: center;
+}
+.companies{
+    margin: 20px;
+    padding: 20px;
+}
+.market{
+    font-size: 23px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.market li{
+    border-bottom: 5px dotted #f1c716;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.custom{
+    border-bottom: 4px dotted black;
+}
+.companies p{
+    width: 80%;
+    line-height: 18px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    color: grey;
+}
+            /*------------------------marketing end-------------------------*/
+            /*-----------action start-------------------------*/
+.action{
+    width: 100%;
+    padding: 20px;
+}
+.platform{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: 4px dotted black;
+}
+.platform img{
+    margin: 20px;
+    padding: 20px;
+    width:100%;
+}
+.platform h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+          /*----------------action end-------------------------*/
+          /*-----------advantages start-------------------------*/
+.advantages{
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid red;
+}
+.program{
+    font-size: 40px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.wholesale{
+    display: flex;
+    border-bottom: 4px dotted black;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.discount{
+    background-color: #6ac8c8;
+    margin: 10px;
+    padding: 5px;
+    line-height: 20px;
+    width: 25%;
+}
+.discount h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.discount p{
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+}
+    /*-----------advantages end-------------------------*/  
+        /*--------------comprehensive start-------------------------*/
+.comprehensive{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+}
+.tracking{
+    display: flex;
+    border-bottom: 4px dotted black;
+    margin: 20px;
+    padding: 20px;
+}
+.reporting{
+    padding: 10px;
+    margin: 10px;
+    line-height: 25px;
+}
+.reporting h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    line-height: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.reporting h1 span{
+    color: red;
+}
+.reporting h2{
+    margin: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.reporting p{
+    margin: 10px;
+    padding: 10px;
+    color: grey;
+}
+            /*-----------comprehensive end-------------------------*/
+            /*-----------other benefits start-------------------------*/
+.benefits{
+    width: 100%;
+    text-align: center;
+}
+.benefits h1 span{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.agnostic{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+.measure{
+    margin: 0 auto;
+    padding: 10px;
+    width: 30%;
+    line-height: 18px;
+}
+.measure h1{
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.measure p{
+    color: grey;
+    text-align: justify;
+}
+.yellow{
+    background-color: #f1c716;
+}
+            /*-----------other benefits end-------------------------*/
+             /*--------------desciplane start-------------------------*/  
+.disciplane{
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+}
+.linear{
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.linear h1{
+    font-size: 60px;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+.linear span{
+    color: red;
+}
+.risk{
+    background-color: #6ac8c8;
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+.risk h2{
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
+    color: white;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.risk span{
+    background-color: ivory;
+    color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.risk p{
+    padding: 5px 20px;
+    margin: 5px 20px;
+    line-height: 20px;
+}
+       /*-----------desciplane end-------------------------*/
+          /*-----------contact start-------------------------*/
+.contact{
+     width: 100%;
+     padding: 20px;
+     text-align: center;
+     background-color: #f1c716;
+}
+.try{
+    padding: 20px;
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.try h1{
+    font-size: 60px;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.try h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+}
+button a{
+    color: #fff;
+}
+button:hover{
+    background-color: #6ac8c8;
+    color: white;
+}
+             /*-----------contact end-------------------------*/
+                /*-------------footer start-------------------------*/
+.copyright{
+    background-color: #6ac8c8;
+    width: 100%;
+}
+.footer{
+    display: flex;
+}
+.footer-logo{
+    margin: 5px;
+    padding: 5px;
+}
+.social{
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+.social a{
+    padding: 5px;
+    margin: 5px;
+}
+.social a:hover{
+    color: black;
+}
+.footer h1{
+    padding: 5px;
+    margin: 5px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.footer h2{
+    padding: 5px;
+    margin: 5px;
+    color: rgb(48, 46, 46);
+    font-size: 10px;
+}
+.last{
+    padding: 5px;
+    margin: 5px;
+}
+.in-touch{
+    padding: 5px;
+}
+.email{
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+.copyright h3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.copyright span{
+    color: red;
+}

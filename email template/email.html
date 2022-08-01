@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <title> Email </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .table1 {
+            width: 100%;
+            background-color: #848499;
+            border-bottom: 7px solid #00C8A9;
+        }
+
+        .table1 tr {
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .table1 th {
+            padding: 40px;
+            color: white;
+            font-weight: 500;
+            font-size: 1.3vw;
+            float: right;
+        }
+
+        .table1 .email1 {
+            float: left;
+        }
+
+        .table1 img {
+            margin-top: 55px;
+            position: absolute;
+            margin-left: -85px;
+        }
+
+        .table2 .email2 {
+            float: right;
+        }
+
+        .fa {
+            padding: 0px 7px 0px 0px;
+            margin-left: 25px;
+            /* vertical-align: middle;
+            line-height: 2px;
+            height: 2px */
+        }
+
+        .fa-envelope-o,
+        .fa-commenting-o {
+            font-size: 30px;
+        }
+
+        .table2 {
+            text-align: center;
+            margin: 0 auto;
+            border-bottom: 1px solid grey;
+        }
+
+        .table2 tr th {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .table2 .hi {
+            font-size: 3vw;
+            padding: 80px 0px 20px 0px;
+        }
+
+        .table2 .notify {
+            font-size: 1.6vw;
+            padding: 10px 40px 40px 40px;
+        }
+
+        .table3 {
+            padding: 40px 0px 20px 40px;
+        }
+
+        .table3 tr {}
+
+        .table3 th {
+            width: 25vw;
+            text-align: left;
+            letter-spacing: 0.5px;
+            padding: 20px 0px 20px 0px;
+            font-size: 1.7vw;
+        }
+
+        .table3 td {
+            border-radius: 30px;
+            background-color: #e3e3ee;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 15px 10px 15px 10px;
+        }
+
+        .table3 span {
+            border-bottom: 2px solid grey;
+        }
+
+        .new {
+            padding: 0px 0px 20px 40px;
+        }
+
+        .new td {
+            border-radius: 30px;
+            background-color: #e3e3ee;
+            font-size: 1.2vw;
+            font-weight: 600;
+            padding: 15px 20px 15px 20px;
+        }
+
+        .new span {
+            border-bottom: 2px solid grey;
+        }
+
+        .table4 {
+            font-weight: 600;
+            padding: 10px 35px 40px 40px;
+            font-size: 18px;
+            float: left;
+            border-bottom: 1px solid grey;
+        }
+
+        .table4 li {
+            text-align: left;
+        }
+
+        .table4 tr {
+            color: #474747;
+            padding: 2px;
+            float: left;
+            font-weight: 500;
+            width: 100%;
+            font-size: 1.3vw;
+        }
+
+        .table5 {
+            text-align: left;
+            padding: 40px;
+        }
+
+        .table5 th {
+            font-size: 1.5vw;
+            color: rgb(136, 153, 172);
+            padding: 30px 20px 20px 20px;
+        }
+
+        .table5 tr {
+            font-weight: 500;
+            color: #474646;
+            font-size: 1.3vw;
+            letter-spacing: 0.2px;
+        }
+
+        .table5 tr td {}
+
+        .table5 li {
+            padding: 5px;
+        }
+
+        .table6 {
+            padding: 60px;
+            background: #292C35;
+            color: white;
+            width: 100%;
+        }
+
+        .table6 tr {}
+
+        .table6 th {
+            padding-right: 40px;
+            padding-top: 10px;
+            float: right;
+            font-size: 1.3vw;
+            font-weight: 500;
+        }
+
+        .table6 td {
+            padding: 10px 0px 10px 20px;
+            float: left;
+            font-size: 1.3vw;
+        }
+
+        .table6 span {
+            color: #979696;
+        }
+
+        .table6 .green {
+            color: rgb(59, 196, 166);
+        }
+
+        /* media */
+        @media only screen and (max-width: 1488px) {
+            .table2 .hi {
+                font-size: 3vw;
+                padding: 40px 0px 20px 0px;
+            }
+
+            .table5 {
+                text-align: left;
+                padding: 10px 20px 40px 40px;
+            }
+
+            .table6 td {
+                padding: 10px 0px 10px 0px;
+            }
+
+            .table1 th {
+                padding: 40px 20px 40px 20px;
+            }
+
+            .table1 img {
+                width: 55px;
+                margin-top: 85px;
+                margin-left: -65px;
+            }
+        }
+
+        @media only screen and (max-width: 1120px) {
+            .table5 {
+                text-align: left;
+                padding: 10px 20px 40px 20px;
+            }
+
+            .table1 th {
+                padding: 40px 20px 40px 0px;
+            }
+
+            .new td {
+                padding: 15px 15px 15px 15px;
+            }
+        }
+
+        @media only screen and (max-width: 1031px) {
+            .table1 img {
+                width: 55px;
+                margin-top: 85px;
+                margin-left: -50px;
+            }
+
+            .table4 {
+                padding: 10px 35px 40px 20px;
+            }
+        }
+
+        @media only screen and (max-width: 819px) {
+            .table4 {
+                font-weight: 600;
+                font-size: 18px;
+                padding: 10px 25px 25px 20px;
+            }
+
+            .new td {
+                padding: 10px;
+            }
+
+            .table3 {
+                padding: 10px 0px 20px 40px;
+            }
+
+            .table5 {
+                padding: 10px 10px 40px 10px;
+            }
+
+            .table6 {
+                padding: 40px;
+            }
+
+            .table2 .notify {
+                padding: 10px 20px 20px 20px;
+            }
+
+            .table5 th {
+                padding: 20px 15px 5px 25px;
+            }
+
+            .new {
+                padding: 0px 0px 10px 20px;
+            }
+
+            .table3 {
+                padding: 10px 0px 5px 25px;
+            }
+
+            .table5 {
+                padding: 10px 10px 20px 10px;
+            }
+            .fa {
+            vertical-align: middle;
+            line-height: 2px;
+            height: 2px
+        }
+        }
+
+        @media only screen and (max-width: 670px) {
+            /* .table5 th {
+    padding: 20px 15px 5px 10px;
+} */
+        }
+    </style>
+</head>
+
+<body>
+    <table class="table1">
+        <tr>
+            <th class="email1"> <i class="fa fa-envelope-o"> </i> help@greezlyforce.ca </th>
+            <td> <img src="img/logo.png"> </td>
+            <th class="email2"> <i class="fa fa-commenting-o"> </i> 778-545-3453 </th>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <th class="hi"> Hi Samantha, </th>
+        </tr>
+        <td class="notify"> This is to notify you that You have been successfully scheduled for a <b> Heavy Labour </b>
+            Shift on
+            <b> June 14th, 2021 </b> for <b> Quantum construction. </b>
+        </td>
+    </table>
+    <table class="table3">
+        <tr>
+            <th> <span> Required </span> Gear & Skills </th>
+        </tr>
+    </table>
+    <table class="new">
+        <tr>
+            <td> HARD HAT </td>
+            <td> STEEL TOED BOOTS </td>
+            <td> VEST </td>
+            <td> SAFETY GLOVES </td>
+        </tr>
+        <tr>
+            <td> SAFETY GOGGLES </td>
+            <td> MASK </td>
+            <td> EARMUFS </td>
+        </tr>
+    </table>
+    <table class="table4">
+        <tr>
+            <td>
+                <li> Identify utility lines </li>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <li> Direct traffic when necessary to ensure safety of pedestrians, motorists and work crew </li>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <li> Back fill trenches and pits </li>
+            </td>
+        </tr>
+    </table>
+    <table class="table5">
+        <tr>
+            <th> WORK </th>
+        </tr>
+        <tr>
+            <td> <i class="fa fa-globe"></i> Heavy Labour </td>
+        </tr>
+        <tr>
+            <th> JOB LOCATION </th>
+        </tr>
+        <tr>
+            <td> <i class="fa fa-map-marker"></i> 21025 84 Avenue Langley, BC V3K04L </td>
+        </tr>
+        <tr>
+            <th> JOB DETAILS </th>
+        </tr>
+        <tr>
+            <td> <i class="fa fa-calendar-o"></i> June 14th, 2021 (Monday) </td>
+        </tr>
+        <tr>
+            <td> <i class="fa fa-clock-o"></i> 7:00 am to 5:30 pm PST (10 hrs, 30 mins) </td>
+        </tr>
+        <tr>
+            <th> DESCRIPTIONS </th>
+        </tr>
+        <tr>
+            <td>
+                <li> Identify utility lines </li>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <li> Direct traffic when necessary to ensure safety of pedestrians, motorists and work crew </li>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <li> Back fill trenches and pits </li>
+            </td>
+        </tr>
+    </table>
+    <table class="table6">
+        <tr>
+            <td> Hourly pay <span> 8 hours </span> </td>
+            <th> $190.00 </th>
+        </tr>
+        <tr>
+            <td> Overtime Pay <span> 2 hours </span> </td>
+            <th> $57.00 </th>
+        </tr>
+        <tr>
+            <td> Break <span> 30 mins </span></td>
+            <th> $9.50 </th>
+        </tr>
+        <tr>
+            <td> Total Pay </td>
+            <th class="green"> $292.89</th>
+        </tr>
+    </table>
+</body>
+
+</html>

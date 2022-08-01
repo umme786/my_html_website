@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------page wrapper start----------------------*/
+
+body {
+    text-transform: capitalize;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/*------------------header section start----------------------*/
+
+.logo-nav {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+.eventlogo {
+    float: left;
+}
+
+.eventlogo img {
+    width: 80px;
+    padding: 5px;
+    margin-left: 10px;
+    filter: grayscale(75%);
+}
+
+.navigation {
+    float: right;
+}
+
+nav {
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+    padding: 15px;
+    font-size: 15px;
+    float: left;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+li a:hover {
+    transition: all 0.5s ease;
+}
+
+li:hover {
+    border-bottom: 1px solid white;
+    background-color: rgb(23, 23, 70);
+    box-shadow: 2px 5px 20px 2px rgb(23, 23, 70);
+}
+
+
+/*------------------header section end----------------------*/
+
+
+/*------------------banner section start----------------------*/
+
+.banner-section {
+    text-align: center;
+    background-image: url(22.jpg);
+    opacity: rgba(12, 12, 12, 0.5);
+    height: 100%;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wedding {
+    margin: 40px;
+    padding: 40px;
+}
+
+.wedding h1 {
+    font-size: 90px;
+    margin: 0;
+    padding: 20px;
+    text-shadow: -6px -2px 5px whitesmoke;
+}
+
+.wedding span {
+    font-size: 60px;
+    text-shadow: -6px -2px 5px black;
+    color: red;
+}
+
+.weddinglogo img {
+    width: 100px;
+    height: 100px;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    height: 30px;
+    width: 30px;
+    animation: scrollDown 2s ease infinite;
+}
+
+@keyframes scrollDown {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.scroll-down img {
+    width: 25px;
+    display: block;
+    margin: 2px auto;
+}
+
+
+/*---------------end---------*/
+
+.next-sec {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.story {
+    text-align: center;
+    font-family: cursive;
+}
+
+.story h2 {
+    border-bottom: 2px solid grey;
+    display: inline-block;
+    padding: 20px;
+    color: rgb(44, 113, 216);
+    letter-spacing: 3px;
+}
+
+.story h3 {
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+
+/*-----------------bride groom------------------*/
+
+.bride-groom {
+    display: flex;
+    width: 100%;
+}
+
+.bride-groom img:hover {
+    filter: grayscale(100%);
+}
+
+.groom {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.groom img {
+    width: 400px;
+    height: 400px;
+}
+
+.groom-h2p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.groom h2 {
+    color: red;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+}
+
+.groom p {
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.follow-groom {
+    display: inline-block;
+    margin: 10px;
+}
+
+.follow-groom a {
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.follow-us {
+    display: flex;
+}
+
+.follow-us img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+
+.bride {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.bride img {
+    width: 400px;
+    height: 400px;
+}
+
+.bride-h2p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.bride h2 {
+    color: red;
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bride p {
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.follow-us {
+    display: flex;
+}
+
+.follow-bride {
+    display: inline-block;
+    margin: 10px;
+}
+
+.follow-us img {
+    width: 30px;
+    height: 30px;
+}
+
+.follow-bride a {
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*--------------------footer------------------*/
+
+
+/*-----------------------about us start---------------------------*/
+
+.about-company {
+    background-color: grey;
+    opacity: 0.9;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.about-company a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.app {
+    float: left;
+    padding: 0 10px;
+    width: 30%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.app img {
+    max-width: 100px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.app h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.app p {
+    color: whitesmoke;
+}
+
+.about-us {
+    float: left;
+    color: white;
+    margin: 1px 5px;
+    padding: 1px 5px;
+    text-align: center;
+    width: 30%;
+    font-size: 10px;
+}
+
+.about-us img {
+    max-width: 80px;
+}
+
+.about-us h1 {
+    color: black;
+    font-size: 20px;
+}
+
+.about-us p {
+    color: whitesmoke;
+}
+
+.contact-us {
+    float: left;
+    color: whitesmoke;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 10px;
+    width: 20%;
+}
+
+.contact-us h1 {
+    color: black;
+}
+
+.follow {
+    float: left;
+    color: whitesmoke;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 10px;
+    width: 20%;
+}
+
+.follow h1 {
+    color: black;
+}
+
+.follow a:hover {
+    color: red;
+}
+
+
+/*-----------------------about us end---------------------------*/
+
+
+/*-----------------------footer start---------------------------*/
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: grey;
+    background-size: cover;
+    text-align: end;
+}
+
+.footer h2 {
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+/*-----------------------footer end---------------------------*/

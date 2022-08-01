@@ -1,0 +1,369 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ /*------------------page wrapper start----------------------*/
+ 
+ body {
+     text-transform: capitalize;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .clearfix::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ /*------------------header banner start----------------------*/
+ .header-banner{
+    text-align: center;
+    background-image: url(images/office.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+ }
+ .header-banner:before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    background: linear-gradient(180deg, #222152 0%, rgba(48, 48, 84, 0) 100%);
+    z-index: -1;
+ }
+ /*------------------header banner end----------------------*/
+ /*------------------header section start----------------------*/
+
+ .logo-nav {
+     width: 100%;
+     display: flex;
+ }
+ 
+ .logo img {
+     padding: 25px;
+ }
+ .navigation {
+     width: 80%;
+ }
+ 
+ nav {
+     float: right;
+ }
+ 
+ li {
+     padding: 16px 64px;
+     margin: 20px;
+     float: left;
+     list-style: none;
+     font-family: Inter;
+     font-weight: bold;
+     border-radius: 16px;
+     cursor: pointer;
+ }
+ li:nth-child(2){
+    background: linear-gradient(263.04deg, #979CFF -4.47%, #3398F4 91.92%);
+ }
+ li:nth-child(3){
+     padding: 10px 15px;
+ }
+ li a {
+     text-decoration: none;
+     padding: 5px;
+ }
+ 
+ li a:hover {
+     transition: all 0.5s ease;
+ }
+ .active{
+    background-color: #fff;
+    color: #000;
+ }
+ li .fa{
+     color: white;
+     font-size: 20px;
+ }
+ /*------------------header section end----------------------*/
+ /*------------------banner section start----------------------*/
+ .banner{
+    width: 50%;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+}
+.banner h1{
+    margin: 0 auto;
+    padding: 5px;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0em;
+    width: 80%;
+}
+.banner p{
+    margin: 5px;
+    padding: 5px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.button{
+    text-align: center;
+}
+.button button[type=submit] {
+	background-color: #fff;
+    color: #000;
+	border-radius: 15px;
+    display: inline-block;
+	padding:10px 30px;
+	margin: 20px;
+    outline: none;
+	border: none;
+    }
+.button button[type=submit]:hover{
+    background: linear-gradient(263.04deg, #979CFF -4.47%, #3398F4 91.92%);
+    color: white;
+	cursor: pointer;
+}
+.banner-section h2{
+    background: linear-gradient(263.04deg, #979CFF -4.47%, #3398F4 91.92%);
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+	cursor: pointer;
+}
+/*------------------banner section end----------------------*/
+ /*------------------bussines section start----------------------*/
+ .business-unlock{
+      margin: 10px 20px;
+      padding: 10px 20px;
+ }
+ .business-unlock h2{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 20px;
+ }
+ .business-unlock span{
+     color: rgb(27, 122, 231);
+ }
+ .business-section{
+     display: flex;
+     margin: 5px 30px;
+     padding: 5px 30px;
+     text-align: center;
+ }
+ .business{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    width: 33.33%;
+ }
+ .business .fa{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+ }
+ .business h3{
+      width: 55%;
+      margin: 0 auto;
+      font-size: 15px;
+ }
+ /*------------------bussiness section end----------------------*/
+ /*------------------why us end----------------------*/
+ .why-us{
+     text-align: center;
+     color: #fff;
+     background: #222152;
+     padding: 10px;
+ }
+ .why-us h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+ }
+ .start{
+    margin: 10px;
+    padding: 10px;
+ }
+ .start p{
+     width: 50%;
+     margin: 0 auto;
+     padding: 10px;
+     font-size: 15px;
+ }
+ .verified{
+     width: 100%;
+     margin: 5px;
+     padding: 5px;
+ }
+ .people{
+     display: inline-block;
+     margin: 5px;
+     padding: 5px;
+     width: 15%;
+ }
+ .people .fa{
+     margin: 5px;
+     padding: 5px;
+     font-size: 40px;
+ }
+ .people h3{
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+ }
+ /*------------------why us end----------------------*/
+ /*------------------client start----------------------*/
+.our-client{
+     margin: 10px;
+     padding: 10px;
+}
+.our-client h2{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30%;
+}
+.our-client span{
+    display: inline-block;
+}
+.client-logo{
+     display: flex;
+     margin: 10px;
+     padding: 10px;
+}
+.client{
+    width: 25%;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.client img{
+    width: 70px;
+    padding: 5px;
+}
+ /*------------------client end ----------------------*/
+ /*------------------join us start----------------------*/
+ .join-us{
+     display: flex;
+     padding: 5px 0px;
+    background: linear-gradient(263.04deg, #979CFF -4.47%, #3398F4 91.92%);
+ }
+ .join{
+    width: 50%;
+ }
+ .join img{
+    width: 75%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+    margin: 40px 0px;
+    box-shadow: 2px 5px 20px 2px grey;
+ }
+ .join h2{
+    padding: 10px 5px;
+    margin-top: 30px;
+ }
+ .join span{
+     display: block;
+     color: white;
+     padding: 5px 0px;
+     margin: 5px 0px;
+     width: 30%;
+ }
+ .join p{
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin: 20px 0px;
+    width: 80%;
+ }
+ .join-button{
+     margin: 5px;
+     padding: 5px;
+ }
+ .click-me{
+     display: flex;
+ }
+ .click button[type=submit] {
+    background: #222152;
+    color: #fff;
+	border-radius: 13px;
+    display: inline-block;
+	padding:10px 30px;
+	margin: 20px;
+    outline: none;
+	border: none;
+    }
+.click button[type=submit]:hover{
+    background: linear-gradient(263.04deg, #979CFF -4.47%, #3398F4 91.92%);
+    border: 1px solid navy;
+    color: #222152;
+	cursor: pointer;
+}
+.click-here button[type=submit] {
+	background-color: #fff;
+    color: #222152;
+	border-radius: 13px;
+    display: inline-block;
+	padding:10px 30px;
+	margin: 20px;
+    outline: none;
+	border: none;
+    }
+.click-here button[type=submit]:hover{
+    background: #222152;
+    color: white;
+	cursor: pointer;
+}
+ /*------------------join us end----------------------*/
+ /*------------------footer start----------------------*/
+ .footer{
+    background: #222152;
+    padding: 10px;
+ }
+ .footer-logo {
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer-logo img {
+    padding: 5px;
+    margin: 5px;
+}
+.copyright{
+     display: flex;
+     margin: 5px;
+     padding: 5px;
+     font-size: 13px;
+}
+.expeneur1{
+    width: 33%;
+    color: grey;
+    margin: 10px;
+    padding: 5px;
+}
+.expeneur2{
+    width: 16%;
+    color: grey;
+    margin: 5px;
+    padding: 10px;
+}
+ /*------------------footer end----------------------*/
+ /*------------------page wrapper end----------------------*/
+

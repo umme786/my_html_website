@@ -1,0 +1,280 @@
+@media only screen and (max-width:1200px) {
+    .choose-image {
+        width: 18%;
+    }
+.banner h1:before {
+    display: none;
+}
+.choose span:before {
+    display: none;
+}
+.company-logo{
+    display: block;
+    text-align: center;
+}
+}
+@media only screen and (max-width:1024px) {
+    section{
+        display: block;
+    }
+    .banner{
+        width: 80%; 
+    }
+    .choose-image {
+        width: 20%;
+    }
+    .rank{
+        display: block;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .companies h1{
+        width: 80%;
+    }
+    .images1 {
+        display: block;
+    }
+    .rank1a {
+        width: 100%;
+    }
+    .rank1b {
+         width: 100%;
+    }
+    .images2 {
+        display: block;
+    } 
+    .rank2a {
+        width: 100%;
+    }
+    .rank2b {
+         width: 100%;
+    }
+    .images3 {
+        display: block;
+    } 
+    .rank3a {
+        width: 100%;
+    }
+    .rank3b {
+         width: 100%;
+    }
+    .images4 {
+        display: block;
+    }
+    .rank4a {
+        width: 100%;
+    }
+    .rank4b {
+         width: 100%;
+    }
+    .education {
+        text-align: center;
+    }
+    .rank1a img {
+        width: 50%;
+        height: 121px;
+    }
+    .rank2a img {
+        width: 50%;
+        height: 121px;
+    }
+    .rank3a img {
+        width: 50%;
+        height: 121px;
+    }
+    .rank4a img {
+        width: 50%;
+        height: 121px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    form {
+        padding: 30px;
+        margin: 30px;
+    }
+    .choose-image {
+        width: 22%;
+    }
+    .education {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .images1 {
+        width: 45%;
+    }
+    .images2 {
+        width: 45%;
+    }
+    .images3 {
+        width: 45%;
+    }
+    .images4 {
+        width: 45%;
+    }
+    .rank1b {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rank2b {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rank3b {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rank4b {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .company-logo {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+    .company-logo img {
+        height: 90px;
+        width: 80px;
+        margin: 5px; 
+        padding: 5px;
+    }
+    .company-logo img:nth-child(1){
+        width: 65px;
+        height: 90px;
+    }
+    .company-logo img:nth-child(2){
+        height: 65px;
+        width: 60px;
+    }
+    .company-logo img:nth-child(3){
+        height: 60px;
+        width: 80px;
+    }
+    .company-logo img:nth-child(4){
+        height: 45px;
+        width: 50px;
+    }
+    .company-logo img:nth-child(5){
+        height: 30px;
+        width: 70px;
+    }
+    .company-logo img:last-child{
+        height: 65px;
+        width: 80px;
+    }
+}
+@media only screen and (max-width:540px) {
+    .education {
+        display: block;
+    }
+    .right-side {
+        width: 80%;
+    }
+    .companies h1 {
+        width: 100%;
+    }
+    .company-logo {
+        display: block;
+        text-align: center;
+    }
+    .choose-image {
+        display: none;
+    }
+    .text-logo img {
+        display: none;
+    }    
+    .images1 {
+        width: 100%;
+    }
+    .rank1a {
+        width: 100%;
+    }
+    .rank1b img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .rank1a img {
+        width: 30%;
+        height: 121px;
+    }
+    .images2 {
+        width: 100%;
+    }
+    .rank2a {
+        width: 100%;
+    }
+    .rank2b img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .rank2a img {
+        width: 30%;
+        height: 121px;
+    }
+    .images3 {
+        width: 100%;
+    }
+    .rank3a {
+        width: 100%;
+    }
+    .rank3b img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .rank3a img {
+        width: 30%;
+        height: 121px;
+    }
+    .images4 {
+        width: 100%;
+    }
+    .rank4a {
+        width: 100%;
+    }
+    .rank4b img {
+        width: 60%;
+        margin-top: 10px;
+    }
+    .rank4a img {
+        width: 30%;
+        height: 121px;
+    }
+    .banner {
+        width: 85%;
+    }
+    form {
+        padding: 20px;
+        margin: 20px;
+    }
+    form #gender {
+        margin: 3px 5px 5px 5px;
+        font-size: 15px;
+    }
+    form #name {
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+    form #email {
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+    form #number {
+        width: 70%;
+        margin: 5px;
+        padding: 5px;
+    } 
+.banner h2 {
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+}
+}

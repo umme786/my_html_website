@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="39px" viewBox="0 0 37 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ss-2</title>
+    <g id="New-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Landing/Home" transform="translate(-895.000000, -5266.000000)" stroke="#000000" stroke-width="2">
+            <g id="Group-44" transform="translate(350.000000, 4917.000000)">
+                <g id="Group-36" transform="translate(0.000000, 349.000000)">
+                    <g id="Group-34-Copy" transform="translate(385.000000, 1.000000)">
+                        <g id="ss-2" transform="translate(161.000000, 0.000000)">
+                            <line x1="32.5" y1="37" x2="32.5" y2="24.6666667" id="Path"></line>
+                            <line x1="30" y1="24.6666667" x2="35" y2="24.6666667" id="Path"></line>
+                            <path d="M12.5,24.6666667 C11.1192881,24.6666667 10,25.771031 10,27.1333333 L10,34.5333333 C10,35.8956357 11.1192881,37 12.5,37 C13.8807119,37 15,35.8956357 15,34.5333333 L15,27.1333333 C15,26.4791327 14.7366079,25.8517263 14.267767,25.3891366 C13.798926,24.9265469 13.1630412,24.6666667 12.5,24.6666667 Z" id="Path"></path>
+                            <path d="M0,24.6666667 L0,34.5333333 C0,35.8956357 1.11928813,37 2.5,37 L5,37" id="Path"></path>
+                            <path d="M25,24.6666667 L22.5,24.6666667 C21.1192881,24.6666667 20,25.771031 20,27.1333333 C20,30.8333333 25,30.8333333 25,34.5333333 C25,35.8956357 23.8807119,37 22.5,37 L20,37" id="Path"></path>
+                            <polyline id="Path" fill="#FF6633" points="7.5 19.7333333 7.5 0 25 0 25 19.7333333"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

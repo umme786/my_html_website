@@ -1,0 +1,157 @@
+@media only screen and (max-width:1200px) {
+    .header ul{
+        margin: 0px;
+    }
+    .header li{
+        font-size: 11px;
+        margin: 0px;
+        padding: 5px;
+    }
+    .header a{
+        margin: 0px;
+    }
+    .header #active a{
+        margin-left: 2px;
+    }
+    .section li{
+        font-size: 12px;
+        margin: 2px 5px;
+        padding: 1px 5px;
+    }
+    #search{
+        width: 200px;
+        height: 30px;
+        margin: 2px;
+        padding: 4px;
+    }
+    .fa-search{
+        font-size: 15px;
+    }
+    .fa-map-marker{
+        font-size: 20px;
+    }
+    .payment-icons {
+        display: block;
+    }
+    .fixed2{
+       display:none;
+    }
+    .last-form {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:1024px) {
+   .header{
+       display: none;
+   }
+   .section li:nth-child(5){
+    display: none;
+   } 
+   .section li:nth-child(4){
+    display: none;
+    }
+   .section li:last-child{
+    display: none;
+    }
+    .menu-bar ul{
+        display: block;
+    }
+    .sub-menu-1{
+        width: 100%;
+    }
+    .menu-bar ul li{
+        border-bottom: 1px solid grey;
+    }
+    .banner-section{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+    }
+    .main1{
+        width: 100%;
+    }
+    .main2{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-logo2{
+        display: block;
+    }
+    .main1{
+        width: 100%;
+        display: block;
+    }
+    .banner2{
+        width: 100%;
+        text-align: center;
+    }
+    .banner-logo1 .banner:nth-child(4){
+        display: none;
+    }
+    .banner-logo3 .banner:nth-child(4){
+        display: none;
+    }
+    .last-form {
+        width: 100%;
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section li:nth-child(3){
+        display: none;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .banner-logo1{
+        display: block;
+    }
+    .banner-logo3{
+        display: block;
+    }
+    .main2{
+        width: 100%;
+        text-align: center;
+    }
+    .banner{
+        text-align: center;
+    }
+    .last-form {
+        display: block;
+    }
+    .footer-form {
+     display: block;
+    }
+    .last-form {
+     width: 100%;
+    }
+    .form2 h2 {
+    width: 100%;
+    }
+    .payment-social {
+        width: 100%;
+    }
+    #name{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+    #pincode{
+        width: 100%;
+    }
+    button {
+        margin-top: 5px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .footer-about {
+        width: 40%;
+    }
+}
+@media only screen and (max-width:540px) {
+
+}

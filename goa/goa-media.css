@@ -1,0 +1,92 @@
+    @media only screen and (max-width:1024px) {
+    .contact-us img {
+        display: none;
+    }
+    @media only screen and (max-width: 768px) {
+        li {
+            padding: 13px;
+            font-size: 13px;
+        }
+        .content {
+            height: auto;
+        }
+        .about_goa h2 {
+            margin: 20px 0;
+        }
+        .main3 img {
+            height: 120px;
+        }
+    }
+    @media only screen and (max-width:540px) {
+        .goalogo img {
+            display: none;
+        }
+        .navigation li {
+            padding: 10px;
+        }
+        .goatrip h1 {
+            font-size: 70px;
+        }
+        .goatrip span {
+            font-size: 40px;
+        }
+        .about_goa h2 {
+            font-size: 20px;
+        }
+        .about_goa p {
+            width: 90%;
+        }
+        select {
+            display: none;
+        }
+        .detail {
+            display: none;
+        }
+        .heading1 h3 {
+            padding: 5px;
+            margin: 5px;
+            font-size: 13px;
+        }
+        .main3 {
+            display: inline-block;
+        }
+        .main3 img {
+            width: 70%;
+            height: 130px;
+        }
+        .all-beaches1,
+        .all-beaches2,
+        .all-beaches3,
+        .all-beaches4,
+        .all-beaches5,
+        .all-beaches6 {
+            width: 100%;
+            margin: 10px;
+            padding-bottom: 15px;
+        }
+        .about-company h1 {
+            font-size: 15px;
+        }
+        .about-us {
+            display: none;
+        }
+        .app {
+            width: 45%;
+        }
+        .app img {
+            width: 50px;
+        }
+        .contact-us {
+            width: 20%;
+        }
+        .follow-us {
+            width: 35%;
+        }
+        .follow-us h1 {
+            width: 10px;
+        }
+        .footer h2 {
+            font-size: 12px;
+            padding: 15px;
+        }
+    }

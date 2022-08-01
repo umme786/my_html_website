@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+.dark-mode {
+        background-color: white;
+        color: black;
+        }
+h2{
+    margin: 10px;
+    padding: 10px;
+}
+h2 .fa{
+    margin: 5px;
+    vertical-align: 2px;
+    padding: 5px;
+    font-size: 20px;
+}
+h2 a{
+    color: white;
+    text-decoration: none;
+    /* background-color: black; */
+    padding: 10px 20px 10px 10px;
+}
+.tab {
+    overflow: hidden;
+    margin: 5px;
+    padding: 0px 15px 0px 25px;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: white;
+  margin: 0px 5px 0px 5px;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+}
+.tab button:hover {
+}
+.tab button.active {
+  border-bottom: 0.5px solid orange;
+}
+.tabcontent {
+    font-size: 16px;
+    display: none;
+    padding: 6px 12px;
+    margin: 5px 10px 5px 25px;
+    padding: 10px;
+    border-top: none;
+    letter-spacing: 0.7px;
+}
+.check{
+    margin: 5px;
+    padding: 10px;
+}
+/*------------day night chat start-------------*/
+.day-chat{
+  }
+  .night{
+    position: fixed;
+    bottom: 101px;
+    left: 10px;
+    z-index: 11111111;
+    max-width: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    box-shadow: inset 3px 3px 8px 0 rgb(0 0 0 / 16%), inset -3px -3px 8px 0 hsl(0deg 0% 100% / 10%);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(180deg,#1d82f3,#0053b2);
+    border-image-slice: 1;
+    background-image: linear-gradient(180deg,#0078ff,#0062d0),linear-gradient(180deg,#1d82f3,#0053b2);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  }
+  .night img{
+    width: 29px;
+    margin: 5px;
+    padding: 5px;
+  }
+  .chat{
+    position: fixed;
+    bottom: 47px;
+    left: 10px;
+    z-index: 11111111111111;
+    max-width: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    box-shadow: inset 3px 3px 8px 0 rgb(0 0 0 / 16%), inset -3px -3px 8px 0 hsl(0deg 0% 100% / 10%);
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(180deg,#1d82f3,#0053b2);
+    border-image-slice: 1;
+    background-image: linear-gradient(180deg,#0078ff,#0062d0),linear-gradient(180deg,#1d82f3,#0053b2);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  }
+  .chat img{
+    margin: 4px;
+    padding: 5px;
+    width: 35px;
+  }
+  /*------------day night chat end-------------*/
+  .pressed {
+        color: black !important;
+    }
+  .pressed-filt a{
+    color: black !important;
+  }
+/* media */
+  @media only screen and (max-width:700px) {
+    .tab {
+    padding: 0px;
+    }
+    .tab button {
+    padding: 10px 20px 10px 20px;
+    }
+  }
+  @media only screen and (max-width:585px) {
+    .tab button {
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    }
+  }
+  @media only screen and (max-width:476px) {
+    .tab {
+    margin: 0px;
+    }
+    .tab button {
+    padding: 10px;
+   }
+   h2 a {
+    padding: 0px;
+}
+  }
+  @media only screen and (max-width:428px) {
+    .tab button {
+    padding: 5px;
+   }
+   .tabcontent {
+    margin: 0px;
+   }
+  }
+  @media only screen and (max-width:388px) {
+    .tab button {
+    padding: 3px;
+    font-size: 12px;
+    }
+    h2 .fa {
+    font-size: 13px;
+    margin: 0;
+   }
+   h2 a {
+    font-size: 18px;
+   }
+  }
+  @media only screen and (max-width:335px) {
+    .tab button {
+    padding: 0px;
+    }
+  }
+</style>
+
+</head>
+<body>
+
+<h2 class="filt"> <a href="file:///C:/Users/Ruman/Desktop/Umme/website/Tournaments/Tournaments.html"> <i class="fa fa-arrow-left" aria-hidden="true"></i> Filter </a> </h2>
+
+    <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Status')"> STATUS </button>
+    <button class="tablinks" onclick="openCity(event, 'Platform')"> PLATFORM </button>
+    <button class="tablinks" onclick="openCity(event, 'Stream')"> STREAM TYPE </button>
+    <button class="tablinks" onclick="openCity(event, 'Format')"> FORMAT </button>
+    </div>
+
+    <div id="Status" class="tabcontent" style="display: block;">
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Open </label><br>
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Ongoing </label><br>
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Finished </label><br>
+    </div>
+
+    <div id="Platform" class="tabcontent">
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> Xbox-one </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> PC </label><br>
+                <input type="checkbox"class="check" name="prog">
+                <label for="checkbox"> Cross-play </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> X-box Series-X/S </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> Playstation </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> Playstation-4 </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> switch </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> Playstation-5 </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> Mobile </label><br>
+                <input type="checkbox" class="check" name="prog">
+                <label for="checkbox"> X-box </label><br>
+    </div>
+
+    <div id="Stream" class="tabcontent">
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Tracked </label><br>
+        <input type="checkbox"class="check" name="prog">
+        <label for="checkbox"> Untracked </label><br>
+    </div>
+
+    <div id="Format" class="tabcontent">
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Leaderboard </label><br>
+        <input type="checkbox" class="check" name="prog">
+        <label for="checkbox"> Bracket </label><br>
+    </div>
+<!-- tabbing onclick -->
+<script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+</script>
+   <!-- mode -->
+       <!-- day night chat start -->
+       <div class="day-chat">
+        <div class="night" onclick=darkmode()>
+            <img src="images/icons8-day-and-night-30.png">
+        </div>
+        <div class="chat">
+            <img src="images/icons8-chat-messages-32.png">
+        </div>
+    </div>
+    <!-- day night chat end -->
+    <script>
+        function darkmode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        }
+    </script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+        <script>
+            $(() => {
+                'use strict';
+                $('.night').click(function() {
+                    $('.tablinks').toggleClass('pressed');
+                });
+            });
+
+            $(() => {
+                'use strict';
+                $('.night').click(function() {
+                    $('.filt').toggleClass('pressed-filt');
+                });
+            });
+        </script>
+
+</body>
+</html> 

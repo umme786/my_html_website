@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cc1</title>
+    <defs>
+        <circle id="path-1" cx="21" cy="21" r="21"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CreditCard/V1-Copy-2" transform="translate(-177.000000, -447.000000)">
+            <g id="cc1" transform="translate(177.000000, 447.000000)">
+                <path d="M12,0 L48,0 C54.627417,-1.21743675e-15 60,5.372583 60,12 L60,48 C60,54.627417 54.627417,60 48,60 L0,60 L0,60 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z" id="Rectangle" fill="#FFFFFF" opacity="0.100000001" transform="translate(30.000000, 30.000000) scale(-1, 1) translate(-30.000000, -30.000000) "></path>
+                <g id="Group-9" transform="translate(10.000000, 10.000000)">
+                    <g id="Rectangle" opacity="0.100000001">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+                        <rect fill="#FFFFFF" mask="url(#mask-2)" x="-1.29230769" y="0" width="21.9692308" height="42"></rect>
+                    </g>
+                    <g id="streamline-icon-currency-dollar-circle@140x140" transform="translate(5.169231, 5.169231)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.275">
+                        <path d="M18.957592,11.2374582 L15.9487625,11.2374582 C14.7412885,11.2378943 13.6924762,12.0682679 13.4150779,13.2434462 C13.1376796,14.4186244 13.7044577,15.6303547 14.7842809,16.1707023 L17.5234114,17.5416722 C18.6032346,18.0820199 19.1700127,19.2937502 18.8926144,20.4689284 C18.6152162,21.6441066 17.5664038,22.4744803 16.3589298,22.4749164 L13.3388629,22.4749164" id="Path" stroke="#FF6633"></path>
+                        <line x1="15.451505" y1="22.4749164" x2="15.451505" y2="24.5819398" id="Path" stroke="#FF6633"></line>
+                        <line x1="16.8561873" y1="9.13043478" x2="16.8561873" y2="11.2374582" id="Path" stroke="#FF6633"></line>
+                        <path d="M0,16.1538462 C0,25.075369 7.23232327,32.3076923 16.1538462,32.3076923 C25.075369,32.3076923 32.3076923,25.075369 32.3076923,16.1538462 C32.3076923,7.23232327 25.075369,0 16.1538462,0 C7.23232327,0 0,7.23232327 0,16.1538462 Z" id="Path" stroke="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

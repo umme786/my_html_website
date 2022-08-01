@@ -1,0 +1,584 @@
+/*-----------------------page wrapper start---------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    background-color: black;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*-----------------------banner start---------------------------*/
+
+.banner {
+    background-image: url(cloths.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*-----------------------header section start---------------------------*/
+
+.header {
+    background-color: black;
+}
+
+.header img {
+    filter: grayscale(100%);
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: -6px -2px 5px grey;
+    text-transform: uppercase;
+    font-size: 2vw;
+    float: left;
+}
+
+.search {
+    display: flex;
+    width: 300px;
+    position: relative;
+}
+
+.search input[type=text] {
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.fa {
+    color: grey;
+    cursor: pointer;
+}
+
+.h1-search {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 15px;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+
+.profile {
+    background-color: rgb(95, 94, 94);
+    float: right;
+    display: flex;
+    font-size: 5px;
+}
+
+.myprofile {
+    text-align: center;
+    padding: 5px;
+}
+
+.wishlist {
+    text-align: center;
+    padding: 5px;
+}
+
+.cart {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*-----------------------header section end---------------------------*/
+
+
+/*-----------------------navbar start---------------------------*/
+
+.navbar {
+    display: flex;
+    width: 100%;
+}
+
+nav {
+    background-color: black;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+    font-size: 3px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 180px;
+    border-right: 1px solid black;
+}
+
+li {
+    box-shadow: 2px 5px 20px 2px black;
+    background-color: rgb(102, 101, 101);
+}
+
+.active a {
+    background-color: black;
+    border: 1px solid grey;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px;
+    display: block;
+}
+
+nav li:hover {
+    background-color: black;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+nav:hover {
+    background-color: rgb(94, 92, 92);
+    transition: all 0.5s ease;
+}
+
+
+/*-----------------------navbar end---------------------------*/
+
+
+/*-----------------------banner end---------------------------*/
+
+
+/*-----------------------button start---------------------------*/
+
+.special-offer {
+    margin: 60px 0px 60px 0px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+    box-shadow: 0 5px 50px 0 black inset, 0 5px 50px 0 black, 0 5px 50px 0 black, 0 5px 50px 0 black;
+    border-radius: 75px;
+    background-color: rgb(86, 209, 247);
+}
+
+.special-offer img {
+    max-width: 155px;
+    padding: 6px;
+}
+
+.special-offer p {
+    padding: 25px 20px;
+    width: 140px;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 50px;
+    color: black;
+    border: 1px solid white;
+    background-color: rgb(247, 118, 150);
+    box-shadow: 0 5px 50px 0 white inset, 0 5px 50px 0 white, 0 5px 50px 0 white, 0 5px 50px 0 grey;
+}
+
+.special-offer p:hover {
+    transform: translateY(-5px);
+    transition: all 0.9s ease;
+    border: none;
+    color: black;
+    background-color: rgb(247, 118, 150);
+    box-shadow: 0 5px 50px 0 white inset, 0 5px 50px 0 white, 0 5px 50px 0 white, 0 5px 50px 0 white;
+}
+
+.special-offer:hover {
+    background-color: rgb(86, 209, 247);
+    transform: translateY(-5px);
+    transition: all 0.9s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----------------------button end---------------------------*/
+
+
+/*-----------------------detail start---------------------------*/
+
+.detail {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border: 1px solid grey;
+    float: left;
+    width: 98%;
+    padding: 20px;
+    margin: 20px;
+    color: grey;
+}
+
+.detail:hover {
+    box-shadow: 0 0 20px 0px grey;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+/*-----------------------detail end---------------------------*/
+
+
+/*-----------------------dress start---------------------------*/
+
+.all-dress {
+    float: left;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1px 94px;
+    padding: 5px 25px;
+}
+
+.dress {
+    flex-basis: 30%;
+}
+
+.dress img {
+    width: 100%;
+    padding: 10px;
+}
+
+
+/*-----------------------dress end---------------------------*/
+
+
+/*-----------------------featured categories start---------------------------*/
+
+.featured-all {
+    text-align: center;
+    float: left;
+    color: white;
+    margin: 0 40px;
+}
+
+.featured-all h2 {
+    border-bottom: 2px solid grey;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.9vw;
+}
+
+.featured-all-dress {
+    float: left;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 75px;
+    padding: 20px 25px;
+}
+
+.featured-dress {
+    flex-basis: 20%;
+}
+
+.featured-dress h4 {
+    font-size: 1.5vw;
+}
+
+.featured-dress p {
+    color: grey;
+    font-size: 1vw;
+}
+
+.featured-dress img {
+    width: 100%;
+    padding: 10px;
+}
+
+.featured-dress:hover {
+    transform: translateY(-5px);
+    transition: all 0.9s ease;
+}
+
+
+/*-----------------------featured categories end---------------------------*/
+
+
+/*-----------------------latest product start---------------------------*/
+
+.overflow {
+    overflow: auto;
+    background-color: black;
+    height: 39vw;
+    width: 100%;
+}
+
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+
+.latest-product {
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 1.4vw;
+}
+
+.latest-product h2 {
+    border-bottom: 2px solid grey;
+    display: inline-block;
+    padding: 20px;
+}
+
+.Lst-pro {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 25px 75px;
+    padding: 20px 25px;
+}
+
+.product-dress {
+    transition: transform 0.5s;
+    flex-basis: 20%;
+    font-size: 1.2vw;
+}
+
+.product-dress h4 {
+    font-size: 1.5vw;
+}
+
+.product-dress p {
+    color: grey;
+    font-size: 1vw;
+}
+
+.product-dress img {
+    width: 99%;
+}
+
+.product-dress:hover {
+    transform: translateY(-5px);
+    transition: all 0.9s ease;
+}
+
+
+/*-----------------------latest product end---------------------------*/
+
+
+/*-----------------------latest product 2 start---------------------------*/
+
+.product-2 {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 25px 75px;
+    padding: 20px 25px;
+}
+
+
+/*-----------------------latest product 2 end---------------------------*/
+
+
+/*-----------------------company start-------------------------*/
+
+.fa.fa-quote-left {
+    font-size: 1.5vw;
+    color: #ff523b;
+}
+
+.company-brand {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 0.9vw;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.company img {
+    width: 100%;
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.company-brand img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.company {
+    margin: 10px 50px;
+    padding: 0px 40px;
+    box-shadow: 0 0 20px 0px grey;
+}
+
+.company:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+    background-color: rgb(26, 25, 25);
+}
+
+
+/*-----------------------company end---------------------------*/
+
+
+/*-----------------------brand tag start---------------------------*/
+
+.brand-tag {
+    float: left;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(97, 96, 96);
+    padding: 10px;
+    margin: 100px auto;
+    cursor: pointer;
+}
+
+.tag {
+    padding: 5px;
+}
+
+.tag img {
+    max-width: 100px;
+    float: left;
+    filter: grayscale(100%);
+    padding: 5px;
+    margin: 35px;
+}
+
+
+/*-----------------------brand tag end---------------------------*/
+
+
+/*-----------------------about us start---------------------------*/
+
+.about-company {
+    background-color: black;
+    display: inline-block;
+    margin: 10px;
+    width: 99%;
+}
+
+.about-company a {
+    color: grey;
+    text-decoration: none;
+}
+
+.app {
+    float: left;
+    padding: 0 10px;
+    width: 30%;
+    font-size: 0.9vw;
+    text-align: center;
+}
+
+.app img {
+    max-width: 100px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.app h1 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.app p {
+    color: grey;
+}
+
+.about-us {
+    float: left;
+    color: white;
+    margin: 1px 5px;
+    padding: 1px 5px;
+    text-align: center;
+    width: 30%;
+    font-size: 0.9vw;
+}
+
+.about-us img {
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.about-us h1 {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.about-us p {
+    color: grey;
+}
+
+.contact-us {
+    float: left;
+    color: white;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 0.9vw;
+}
+
+.follow-us {
+    float: left;
+    color: white;
+    margin: 0px 10px;
+    padding: 0px 10px;
+    font-size: 0.9vw;
+}
+
+
+/*-----------------------about us end---------------------------*/
+
+
+/*-----------------------footer start---------------------------*/
+
+.footer {
+    background-color: black;
+    padding: 30px;
+    border-top: 1px solid grey;
+}
+
+.footer h2 {
+    float: right;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 15px;
+}
+
+
+/*-----------------------footer end---------------------------*/
+
+
+/*-----------------------page wrapper end---------------------------*/

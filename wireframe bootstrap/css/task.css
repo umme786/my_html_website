@@ -1,0 +1,205 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    color: linen;
+    background-color: rgb(59 55 95 / 90%);
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#logo img{
+    width: 88px;
+    height: 30px;
+}
+#menu li a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: linen;
+    padding: 15px 10px;
+    display: block;
+}
+#menu li a:hover{
+    background-color: rgb(40, 34, 49);
+}
+#banner{
+    background: url('../css/banner-section.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+     background: rgba(255,255,255,0.8);
+     display: inline-block;
+     padding: 10px;
+     margin: 0;
+}
+.banner-title p.lead{
+     color:linen;
+     background-color: rgb(231, 76, 60 0.7);
+     padding: 10px;
+}
+       /*------------------contact us start----------------------*/
+.contact-me{
+    float: left;
+    background-color: rgb(236, 232, 232);
+}
+.contact-us h2{
+    color: rgb(59 55 95 / 90%);
+    }
+.form-control{
+    border-radius: 10px;
+    border: 2px solid pink;
+}
+.form-control:hover{
+    background-color: whitesmoke;
+}
+.contactlist{
+    display: flex;
+}
+      /*------------------contact us end----------------------*/
+      /*------------------list start ----------------------*/
+.list{
+    float: left;
+    background-color: whitesmoke;
+    border: 2px solid rgb(236, 232, 232);
+}
+.list-group{
+    color: rgb(59 55 95 / 90%);
+}
+.contact-list{
+    background-color: rgb(236, 232, 232);
+}
+      /*------------------list end----------------------*/
+      /*------------------services start----------------------*/
+.service{
+    border: 1px solid grey;
+    background-color: pink;
+}
+.service-logo img{
+    height: 150px;
+    width: 200px;
+}
+.service:hover{
+    background-color: rgb(41, 33, 77);
+    color: white;
+}
+.latest-news li a{
+    text-decoration: none;
+}
+      /*------------------services end----------------------*/
+      /*-----------------footer start----------------------*/
+.news-post img{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .news-post h3{
+        font-size: 1.35rem;
+    }
+    .news-post h3 a{
+        color: #e74c3c;
+    }
+    .post-date{
+        font-size: 13px;
+        margin-bottom: 2px;
+    }
+    .post-date:before{
+         content: "\f073"; 
+         font-family: FontAwesome;
+         padding-right: 5px;
+    }
+    a.readmore{
+        font-size: 14px;
+        color: #e74c3c
+    }
+    a.readmore:after{
+        content: "\f101";
+        font-family: FontAwesome;
+        padding-left: 5px;
+    }
+    .footer-sidebar{
+        color: whitesmoke;
+        background-color: rgb(59 55 95 / 90%);
+        padding: 20px 0;
+    }
+    .footer-widget h4:after{
+        content: "";
+        background: whitesmoke;
+        display: block;
+        width: 50px;
+        height: 2px;
+        margin: 5px 0;
+    }
+    .footer-widget a{
+        color: whitesmoke;
+    }
+    .latest-news{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .latest-news li{
+         margin-bottom: 3px;
+    }
+    .latest-news li:before{
+        content: "\f101";
+        font-family: FontAwesome;
+        padding-right: 5px;
+    }
+    .latest-news a:hover{
+        color: red;
+    }
+    /*---------------------footer end----------------*/
+    #footer{
+        background-color: rgb(40, 34, 49);
+        color: whitesmoke;
+        padding: 10px 0;
+    }
+    #social-icons{
+         list-style: none;
+         color:aliceblue;
+         margin: 0;
+         padding: 0;
+         float: right;
+    }
+    #social-icons li{
+        display: inline-block;
+        padding-left: 5px;
+    }
+    #social-icons li a{
+        color:aliceblue;
+        font-size: 23px;
+        text-decoration: none;
+    }
+    /*--------------responsive----------------*/
+    @media screen and (max-width: 768px) {
+    .contact-me, .list {
+        width: 100%;
+        float: none;
+    }
+    .contact-list{
+        display: block;
+    }
+
+    .contactlist{display: block;
+    }
+    .list{
+        border: none;
+    }
+}

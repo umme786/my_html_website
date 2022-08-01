@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="340px" height="274px" viewBox="0 0 340 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>elem6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.313918341">
+        <g id="Landing/V4.2" transform="translate(175.000000, -3367.000000)" stroke="#979797">
+            <g id="Group-29" transform="translate(-175.000000, 2994.000000)">
+                <g id="Group-27" transform="translate(0.000000, 235.000000)">
+                    <g id="elem6" transform="translate(0.000000, 138.000000)">
+                        <path d="M339.499278,104.5 C339.364696,151.107863 320.418808,193.290391 289.854599,223.854599 C259.181133,254.528066 216.806133,273.5 170,273.5 C123.701225,273.5 81.7380355,254.937137 51.1469743,224.847924 C20.5040304,194.707679 1.27175289,153.001975 0.522758736,106.80721 L0.522758736,106.80721 L0.504067107,104.5 Z" id="Combined-Shape"></path>
+                        <circle id="Oval-Copy" cx="170" cy="104" r="103.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

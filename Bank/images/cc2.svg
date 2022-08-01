@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cc2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CreditCard/V1-Copy-2" transform="translate(-419.000000, -445.000000)">
+            <g id="cc2" transform="translate(419.000000, 445.000000)">
+                <path d="M12,0 L48,0 C54.627417,-1.21743675e-15 60,5.372583 60,12 L60,60 L60,60 L12,60 C5.372583,60 8.11624501e-16,54.627417 0,48 L0,12 C-8.11624501e-16,5.372583 5.372583,1.21743675e-15 12,0 Z" id="Rectangle" fill="#FFFFFF" opacity="0.100000001" transform="translate(30.000000, 30.000000) scale(-1, 1) translate(-30.000000, -30.000000) "></path>
+                <g id="Group-10" transform="translate(14.000000, 16.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" opacity="0.100000001" x="4.48" y="0" width="22.4" height="23.5454545"></rect>
+                    <g id="streamline-icon-password-type@140x140" transform="translate(0.000000, 11.454545)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.275">
+                        <polygon id="Path" stroke="#FFFFFF" points="0 1.67946465e-15 32 1.67946465e-15 32 16.5454545 0 16.5454545"></polygon>
+                        <line x1="13.2187826" y1="5.51515152" x2="18.784" y2="11.030303" id="Path" stroke="#FFFFFF"></line>
+                        <line x1="18.784" y1="5.51515152" x2="13.2187826" y2="11.030303" id="Path" stroke="#FFFFFF"></line>
+                        <line x1="4.17530435" y1="5.51515152" x2="9.74052174" y2="11.030303" id="Path" stroke="#FFFFFF"></line>
+                        <line x1="9.74052174" y1="5.51515152" x2="4.17530435" y2="11.030303" id="Path" stroke="#FFFFFF"></line>
+                        <line x1="22.2622609" y1="11.030303" x2="27.8274783" y2="11.030303" id="Path" stroke="#FF6633"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

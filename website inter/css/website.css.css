@@ -1,0 +1,671 @@
+/*-----------------------page wrapper start---------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.wrapper{
+}
+/*----------------------- header start ---------------------------*/
+.header{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    width: 100%;
+}
+.header ul{
+    margin: 2px;
+}
+.header li{
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px;
+    padding: 5px;
+}
+.header a{
+    color: grey;
+    text-decoration: none;
+    margin: 5px;
+}
+.header li a:hover{
+    color: #00b5cc;
+}
+.header #active a{
+    color: #00b5cc !important;
+    margin-left: 20px;
+}
+.header .right a{
+    color: black;
+}
+.fa-truck{
+    color: #00b5cc;
+    margin: 0px 5px 0px 5px;
+    font-size: 18px;
+}
+.fa-recycle{
+    color: #00b5cc;
+    margin: 0px 5px 0px 5px;
+    font-size: 18px;
+}
+.fa-usd{
+    border-radius: 50%;
+    background-color: #00b5cc;
+    color: #fff;
+    margin: 0px 5px 0px 5px;
+    font-size: 16px;
+    width: 20px;
+    height: 19px;
+    text-align: center;
+    line-height: 20px;
+}
+.fa-phone{
+    border-radius: 50%;
+    background-color: #00b5cc;
+    color: #fff;
+    margin: 0px 5px 0px 5px;
+    font-size: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.fa-phone-square{
+    color: #00b5cc;
+    margin: 0px 5px 0px 5px;
+    font-size: 18px;
+}
+/*----------------------- header end ---------------------------*/
+
+/*---------------section start-----------------------*/
+.section{
+    width: 100%;
+}
+.section li{
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 10px;
+    padding: 2px 10px;
+    vertical-align: -webkit-baseline-middle;
+    position: relative;
+}
+.section a{
+    color: grey;
+    text-decoration: none;
+}
+.section li a:hover{
+    color: #00b5cc;
+}
+.section #active a{
+    color: #00b5cc;
+}
+#search{
+    width: 250px;
+    height: 40px;
+    color: grey;
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-search{
+    position: absolute;
+    right: 8%;
+    top: 32%;
+    color: #00b5cc;
+    font-size: 18px;
+}
+.fa-map-marker{
+    font-size: 22px;
+    border-radius: 50%;
+    background-color: #00b5cc;
+    color: #fff;
+    margin: 0px 5px 0px 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.fa-pencil{
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: grey;
+}
+.fa-pencil:hover{
+    color: #00b5cc;
+}
+.fa-user{
+    padding: 5px;
+    font-size: 22px;
+    border-radius: 50%;
+    background-color: grey;
+    color: #fff;
+    margin: 0px 5px 0px 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 20px;
+}
+.fa-lock{
+    padding: 2px;
+    font-size: 22px;
+    background-color: green;
+    color: #fff;
+    margin: 0px 5px 0px 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.fa-shopping-cart{
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+}
+/*---------------Section end-----------------------*/
+
+/*----------------------- Menu bar start ---------------------------*/
+.menu-bar{
+    background-color: #575563;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: #fff;
+    font-size: 13px;
+}
+.menu-bar ul li{
+    padding: 10px;
+    border-right: 1px solid grey;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-bar ul li:hover{
+    background-color: #8b8a96;
+    border-radius: 3px;
+    transition: all 0.5s ease-out;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #8b8a96;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li .sub-menu-1 ul li{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li .sub-menu-1:hover{
+    background-color: #575563;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #575563;
+}
+.fa-window-maximize{
+    font-size: 40px;
+    color: #cccbcb;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-minus-square{
+    font-size: 40px;
+    color: #cccbcb;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-television{
+    font-size: 40px;
+    width: 100%;
+    color: #cccbcb;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-free-code-camp{
+    font-size: 40px;
+    color: #cccbcb;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-coffee{
+    font-size: 40px;
+    color: #cccbcb;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-road{
+    font-size: 40px;
+    width: 100%;
+    color: #cccbcb;
+    margin: 5px;
+    padding: 5px;
+}
+.fa-bed{
+    font-size: 40px;
+    width: 100%;
+    color: #cccbcb;
+    margin: 5px;
+    padding: 5px;
+}
+/*----------------------- Menu  bar end ---------------------------*/
+
+/*-----------------------banner section start---------------------------*/
+.banner-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.banner{
+    box-shadow: 2px 5px 20px 2px rgb(229 226 226);
+    margin: 10px;
+    padding: 10px;
+    width: 25%;
+}
+.banner:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 2px rgb(184, 183, 183);
+}
+.banner-logo1 .banner:nth-child(4){
+    box-shadow: 2px 5px 20px 2px rgb(250, 224, 176);
+}
+.banner-logo1 .banner:nth-child(4):hover{
+    box-shadow: 2px 5px 20px 2px rgb(226, 195, 138);
+}
+.banner a{
+    text-decoration: none;
+}
+.banner p{
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+}
+.banner span{
+    font-weight: bold;
+}
+.banner .fa-free-code-camp{
+    color: orange;
+    font-size: 50px;
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+.banner-logo1{
+    display: flex;
+    width: 100%;
+}
+.banner-logo2{
+    display: flex;
+    width: 100%;
+}
+.main1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner2{
+    width: 30.8%;
+    box-shadow: 2px 5px 20px 2px rgb(229 226 226);
+    margin: 10px;
+    padding: 10px;
+}
+.banner2 a{
+    text-decoration: none;
+}
+.banner2 p{
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+}
+.banner2:hover{
+    cursor: pointer;
+    box-shadow: 2px 5px 20px 2px rgb(184, 183, 183);
+}
+.main2{
+    width: 25%;
+    margin-top: 12px;
+}
+.banner-logo3{
+    display: flex;
+    width: 100%;
+}
+/*-----------------------banner section end---------------------------*/
+/*-----------------------next banner start--------------------------*/
+.next-banner{
+    width: 100%;
+}
+.next{
+   display: flex;
+}
+.image1{
+    width: 50%;
+}
+.image1 img{
+    width: 100%;
+}
+.image2{
+    width: 50%;
+}
+.image2 img{
+    width: 100%;
+}
+/*------------------------next banner start end---------------------------*/
+/*-----------------testimonials start--------------*/
+.testimonial{
+    margin: 10px;
+    padding: 10px;
+}
+.promotion{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.clearance{
+    box-shadow: 2px 5px 20px 2px rgb(184, 183, 183);
+    width: 25%;
+    margin: 10px;
+    padding: 10px;
+}
+.clearance h1{
+    font-size: 17px;
+    padding: 5px;
+    margin: 5px;
+}
+.clearance p{
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+    color: grey;
+}
+.clearance button{
+    background-color: #eb9a05;
+    padding: 8px 15px;
+    margin: 5px;
+    color: #fff;
+    border: none;
+}
+/*-----------------testimonials end--------------*/
+/*--------------brand start-------------------*/
+.main-footer{
+    background-color: #e7e7e9;
+}
+.brand{
+   border-bottom: 1px solid rgb(187, 186, 186);
+   margin: 10px;
+   padding: 10px;
+}
+.brand h3{
+    margin: 10px;
+    padding: 15px;
+}
+.trusted{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.logo-tag{
+    width: 18%;
+    margin: 2px 10px;
+    padding: 2px 10px;
+}
+.logo-tag img{
+    width: 50%;
+    cursor: pointer;
+}
+/*--------------brand end------------------*/
+/*--------------footer start-----------------*/
+.footer{
+    display: flex;
+    padding: 10px;
+}
+.footer-about{
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+}
+.footer-about h4{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer-about p{
+    margin: 5px;
+    padding: 5px;
+    color: grey;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer-about p:nth-child(1){
+    margin-top: 30px;
+}
+/*--------------footer end------------------*/
+/*--------------payment start----------------*/
+.payment{
+    margin: 10px;
+    padding: 10px;
+}
+.payment-icons{
+    display: flex;
+}
+.payment-social{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.fa-cc-visa{
+    margin: 5px;
+    font-size: 40px;
+    color: #0404a7;
+    cursor: pointer;
+}
+.fa-cc-mastercard{
+    margin: 5px;
+    font-size: 40px;
+    color: rgb(218, 142, 3);
+    cursor: pointer;
+}
+.fa-credit-card-alt{
+    margin: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #0606cc;
+}
+.fa-cc-paypal{
+    margin: 5px;
+    font-size: 40px;
+    color: rgb(100, 182, 214);
+    cursor: pointer;
+}
+.fa-address-card{
+    margin: 5px;
+    font-size: 40px;
+    color: rgb(252, 173, 186);
+    cursor: pointer;
+}
+.fa-credit-card{
+    margin: 5px;
+    font-size: 40px;
+    color:rgb(2, 226, 226);
+    cursor: pointer;
+}
+.fa-credit-card-alt:last-child{
+    color: navy;
+}
+.social-icons{
+    margin: 5px;
+    padding: 5px;
+}
+.fa-facebook{
+    color: white;
+    background-color: grey;
+    margin: 25px 5px 5px 5px;
+    padding: 8px 11px;
+    border-radius: 50%;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+
+}
+.fa-instagram{
+    color: white;
+    background-color: grey;
+    margin: 25px 5px 5px 5px;
+    padding: 8px 11px;
+    border-radius: 50%;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}
+.fa-twitter{
+    color: white;
+    background-color: grey;
+    margin: 25px 5px 5px 5px;
+    padding: 8px 11px;
+    border-radius: 50%;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}
+.fa-youtube{
+    color: white;
+    background-color: grey;
+    margin: 25px 5px 5px 5px;
+    padding: 8px 11px;
+    border-radius: 50%;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}
+/*--------------payment end------------------*/
+/*-------------form start------------------*/
+.form2{
+   margin: 10px;
+   padding: 10px;
+   background-color: rgb(100, 99, 99);
+   color: white;
+}
+.last-form{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.form2 h2{
+    font-size: 21px;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    font-family: cursive;
+}
+.footer-form{
+    margin: 10px;
+    display: flex;
+}
+.form-name{
+    margin: 5px;
+    padding: 5px;
+}
+#name{
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px 5px 5px 0px;
+}
+#email{
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px 5px 5px 0px;
+}
+#pincode{
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: transparent;
+    margin: 5px 5px 5px 0px;
+}
+button{
+    margin-top: 23px;
+    color: white;
+    padding: 11px 40px;
+    vertical-align: bottom;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*--------------form end------------------*/
+/*--------------copyright start------------------*/
+.copyright{
+    display: flex;
+    width: 98%;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-address{
+     font-size: 10px;
+     color: grey;
+     width: 20%;
+     margin: 10px;
+     padding: 10px;
+}
+/*--------------copyright end------------------*/
+/*--------------fixed start------------------*/
+.fixed{
+   display: flex;
+   width: 100%;
+}
+.fixed1{
+    font-size: 12px;
+    float: left;
+    color: #a3a2a2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #e7e7e9;
+}
+.fixed2{
+   float: right;
+   font-size: 30px;
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   cursor: pointer;
+   padding: 5px 10px;
+   background-color: #08c8c8;
+   box-shadow: 2px 5px 20px 2px rgb(184, 183, 183);
+   border-radius: 50%;
+}
+/*--------------fixed end------------------*/
+/*--------------wrapper end------------------*/

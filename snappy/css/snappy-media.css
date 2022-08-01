@@ -1,0 +1,128 @@
+@media only screen and (max-width:1024px){
+    .head-logo2 h1{
+        font-size: 15px;
+    }
+    .discount h1{
+        margin: 0px;
+        padding: 0px;
+    }
+   .comprehensive{
+        margin: 10px;
+        padding: 10px;
+   }
+    .tracking{
+        display: block;
+        margin: 10px;
+        padding: 10px;
+    }
+    .reporting h3 img{
+        height: 100px;
+    }
+    .disciplane{
+        display: block;
+    }
+   .linear{
+        width: 100%;
+   }
+   .risk{
+      width: 100%;
+      padding: 20px;
+}
+@media only screen and (max-width:768px){
+    .head-logo2{
+        display: none;
+    }
+    .text-bg h1 {
+        font-size: 40px;
+    }
+    .wholesale{
+        border: 2px solid red;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .discount{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        float: left;
+        border: 2px solid red;
+    }
+    .discount h1{
+        text-align: center;
+    }
+    .agnostic{
+        display: block;
+        border-bottom: 3px dotted #f1c716;
+    }
+    .measure{
+        width: 100%;
+    }
+    .linear h1{
+        font-size: 40px;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+        line-height: 60px;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .navigation{
+        display: none;
+    }
+    .text-bg{
+        width:100%;
+    }
+    .pattern-logo img {
+        width: 100%;
+        display: block;
+    }
+    .text-bg h1 {
+        font-size: 20px;
+    }
+    .custom{
+        margin: 0px;
+        padding: 0px;
+    }
+    .market li{
+        width: 100%;
+        margin: 0px;
+        padding: 5px;
+        border-bottom: 2px dotted #f1c716;
+    }
+    .campanies p{
+        margin:0px;
+        padding: 0px;
+    }
+    .linear h1{
+        font-size: 30px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        line-height: 50px;
+    }
+    .wholesale{
+        display: block;
+        width: 100%;
+    }
+    .discount{
+        width: 100%;
+        margin: 5px;
+    }
+    .comprehensive{
+        margin: 0px;
+        padding: 0px;
+   }
+    .tracking{
+        margin: 0px;
+        padding: 0px;
+    }
+    .contact{
+       padding: 0px;
+    }
+    .footer{
+        display: block;
+    }
+    .in-touch{
+       width:100%;
+   }
+}

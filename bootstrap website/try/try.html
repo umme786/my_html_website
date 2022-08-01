@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="try/bxslider/css/jquery.bxslider.css">
+</head>
+<body>
+<ul class="bxslider">
+    <li>home</li>
+    <li>home</li>
+      <li>home</li>
+      <li>home</li>
+      <div class="bxslider">
+        <div><img src="/assets/images/coffee1.jpg" title="Funky roots"></div>
+        <div><img src="/assets/images/coffee2.jpg" title="The long and winding road"></div>
+        <div><img src="/assets/images/coffee3.jpg" title="Happy trees"></div>
+      </div>
+</ul>
+
+    <!-- js start -->
+<script src="try/bxslider/js/jquery.js"></script>
+<script src="try/bxslider/js/jquery.bxslider.min.js"></script>
+<script>
+     $(document).ready(function(){
+     /*bxslider js*/
+     $(function(){
+        $('.bxslider').bxSlider({
+           mode: 'fade',
+           captions: true,
+           slideWidth: 600
+       });
+    });
+
+     })
+</script>
+<!-- js end -->
+
+</body>
+</html>

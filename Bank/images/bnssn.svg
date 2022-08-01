@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="55px" viewBox="0 0 54 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bnssn</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="54" height="55"></rect>
+    </defs>
+    <g id="New-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bnssn">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle"></g>
+            <g id="Group-94" mask="url(#mask-2)">
+                <g transform="translate(2.000000, 7.000000)">
+                    <rect id="Rectangle" fill="#000000" opacity="0.100000001" x="7" y="0" width="35" height="37"></rect>
+                    <g id="streamline-icon-password-type@140x140" stroke-width="1" fill="none" transform="translate(0.000000, 18.000000)" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon id="Path" stroke="#1A1C3A" stroke-width="2" points="0 0 50 0 50 26 0 26"></polygon>
+                        <line x1="20.6543478" y1="8.66666667" x2="29.35" y2="17.3333333" id="Path" stroke="#FF6633" stroke-width="2"></line>
+                        <line x1="29.35" y1="8.66666667" x2="20.6543478" y2="17.3333333" id="Path" stroke="#FF6633" stroke-width="2"></line>
+                        <line x1="6.52391304" y1="8.66666667" x2="15.2195652" y2="17.3333333" id="Path" stroke="#1A1C3A" stroke-width="2"></line>
+                        <line x1="15.2195652" y1="8.66666667" x2="6.52391304" y2="17.3333333" id="Path" stroke="#1A1C3A" stroke-width="2"></line>
+                        <line x1="34.7847826" y1="17.3333333" x2="43.4804348" y2="17.3333333" id="Path" stroke="#1A1C3A" stroke-width="2"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,162 @@
+  /*----------------page wrapper start-----------------*/
+            /*-------------header section start------------*/
+#header{
+    color:white;
+    background: url('../css/background_image.jpg') no-repeat 0 0;
+    background-size: cover;
+    font-size: 20px;
+}
+         /*--------------------nav bar start------------------*/
+.nav{
+    background-color: transparent;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+.nav-link.active{
+    color: yellow;
+}
+.nav .active:hover{
+    border-bottom: 1px solid yellow;
+}
+        /*----------------nav bar end--------------*/
+             /*------------banner section start-------------*/
+.banner-section .order {
+	font-size: 30px;
+}
+.banner-section h1{
+    font-size: 60px;
+}
+.banner-section .coming {
+	font-size: 20px;
+}
+      /*----------------banner section end-------------*/
+             /*--------------button----------*/
+.button{
+    display: inline-block;
+    font-size: 17px;
+    background-color: #288ce1;
+    border-radius: 30px;
+    line-height: 50px;
+    padding: 3px 30px;
+    transition: all 0.5s ease;
+   }
+   
+.button:hover{
+   transition: all 0.5s ease;
+   background-color: transparent;
+   border: 1px solid white;
+   }
+   
+.button a {
+   text-decoration: none;
+   color:white;
+  }
+          /*----------------arrow---------------*/
+.arrow-wrap{
+    text-align: center;
+}
+.arrow {
+	background-color: #288ce1;
+	border-radius: 30px;
+	font-size: 30px;
+	cursor: pointer;
+	display: inline-block;
+    padding: 0 13px;
+	}
+                  /*------------------header section end----------*/
+            /*-----------mobile-payment start-------------*/
+.next-meal {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    }
+.subheading{
+    color: #288ce1;
+    font-size: 18px;
+    font-weight: 30;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    /*--------------mobile payment end-------------*/
+              /*------------------working section start----------------------*/
+.working h1{
+    color: #288ce1;
+    font-size: 50px;
+}
+.download{
+    color: #288ce1;
+}
+.download img{
+    background-color: #288ce1;
+    border-radius: 26px;
+    width: 50px;
+    border: 1px solid #288ce1;
+}
+.download img:hover{
+    background-color: #fff;
+}
+.about-download{
+    font-family: Arial, Helvetica, sans-serif;
+}
+                /*------------------working section end----------------------*/
+         /*------------------owners section start----------------------*/
+.owners h1 {
+    color: #288ce1;
+    font-size: 50px;
+}
+.owners strong{
+    font-size: 20px;
+}
+.chat{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.join{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #288ce1;
+    border-radius: 30px;
+    line-height: 50px;
+    padding: 0px 20px;
+    transition: all 0.5s ease;
+   }  
+.join:hover{
+   transition: all 0.5s ease;
+   background-color: transparent;
+   border: 1px solid black;
+   }
+   
+.join a {
+   text-decoration: none;
+   color: black;
+  }
+  /*------------------owners section end----------------------*/
+           /*------------------contact us start----------------------*/
+.contact-us h1{
+    color: #288ce1;
+    font-size: 50px;
+}
+.form-control{
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.btn{
+    border-radius: 15px;
+    background-color: #288ce1;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+  /*------------------contact us end----------------------*/
+            /*--------------footer start------------------*/
+#footer{
+    background-color: #288ce1;
+    color: #fff;
+    font-size: 17px;
+}
+         /*-----------footer end-----------------*/
+    /*-----------page wrapper end-----------------*/

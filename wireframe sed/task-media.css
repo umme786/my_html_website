@@ -1,0 +1,86 @@
+@media only screen and (max-width:1024px) {
+    .banner{
+        width: 75%;
+        padding: 10px;
+    }
+    .banner p{
+        margin: 8px;
+        padding: 13px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .contact-list{
+        display: block;
+    }
+    .contact{
+        width: 100%;
+    }
+    .name input[type=text] {
+        width: 100%;
+     }
+    .mobile input[type=text] {
+      width: 100%;
+    }
+    .list{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner{
+        width: 85%;
+        padding: 5px;
+    }
+    .banner h1{
+        margin: 5px;
+        font-size: 30px;
+    }
+    .banner p{
+        margin: 5px;
+        padding: 10px;
+        line-height: 20px;
+        letter-spacing: normal;
+    }
+}
+@media only screen and (max-width:540px) {
+    .logo {
+        display: none;
+    }
+    .navigation {
+        width: 100%;
+    }
+    li {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .banner{
+        width: 100%;
+        padding: 2px;
+   }
+   .banner h1{
+        margin: 3px;
+        font-size: 25px;
+   }
+   .banner p{
+        margin: 3px;
+        padding: 5px;
+        line-height: normal;
+        letter-spacing: normal;
+   }
+   .list-items{
+        display: block;
+   }
+   .single-line{
+       width: 100%;
+       font-size: smaller;
+   }
+   .double-line{
+    width: 100%;
+    font-size: smaller;
+   }
+   .center{
+       display: none;
+   }
+}

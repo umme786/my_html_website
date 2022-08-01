@@ -1,0 +1,1139 @@
+/*------------------@media only screen----------------------*/
+@media only screen and (max-width:1220px) {
+    /* -----nav----- */
+    nav {
+        width: 100%;
+        padding: 0px;
+    }
+      /* ---------header logo-------------- */
+    .global h1 {
+        font-size: 60px;
+    }
+    .brand-tag {
+        width: 100%;
+    }
+    /* ------------money---------------- */
+    .alert {
+        width: 90%;
+    } 
+    /* ------------reward------------ */
+    .reward {
+        width: 80%;
+    }
+    .reward p {
+        margin: 0px;
+        padding: 0px;
+    }
+    .error {
+        margin: 0px;
+        padding: 0px;
+    }
+    .gift h2 span {
+        font-size: 5em;
+    }
+    .gift h3 span {
+        font-size: 3em;
+    }
+    /* -------------brand---------- */
+    .brand-tag {
+        width: 100%;
+    }
+    /* -------------investor--------------- */
+    .freedom {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:1132px) {
+    /* --------section------------ */
+    .leftside {
+        padding: 20px 40px 0px 30px;
+    }
+    .leftside h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:1084px) {
+    /* ------------account------------- */
+    .leftside button {
+        padding: 15px 35px;
+    }
+    .fuel {
+        display: flex;
+        width: 65%;
+    }
+}
+@media only screen and (max-width:1024px) {
+    /* ---------header-------------- */
+    .site-header {
+        padding: 25px 25px 0px 20px;
+    }
+    .menu-bar ul li{
+        font-size: 12px;
+        margin: 6px;
+    }
+    nav .btn {
+        padding: 0px 20px;
+    }
+    /* ------section----------- */
+    .leftside {
+        padding: 5px 0px 0px 20px;
+    }
+    .leftside h1 {
+        font-size: 35px;
+        padding: 0px 0px 0px 20px;
+    }
+    .leftside p {
+        padding: 5px 0px 5px 20px;
+    }
+    .leftside button {
+        padding: 13px 35px;
+    }
+    .rightside {
+        padding: 10px;
+        margin: 10px;
+    }
+    .rightside video {
+        width: 225px;
+    }
+    .credit-card {
+        width: 100%;
+    }
+    /* ----------account---------- */
+    .big-dot-tailor {
+        display: none;
+    }
+    /* ------------dream----------- */
+        .all-prime {
+            padding: 0px 0px 20px 0px;
+        }
+        .prime-rate {
+            display: block;
+        }
+        .dream {
+            width: 100%;
+        }
+        .image-wrap {
+            margin: 0px;
+            padding: 0px;
+        }
+        .zolve-card {
+            width: 100%;
+        }
+        /* --------global---------- */
+        .global h1 {
+            width: 50%;
+            font-size: 50px;
+            margin: 0;
+            padding: 0px 0px 0px 10px;
+        }
+        .global h2 {
+            width: 50%;
+            margin: 0px;
+            padding: 0;
+        }
+    /* --------------bank------------- */
+    .bank-account {
+        margin: 40px 10px 20px 10px;
+    }
+    .designed-left {
+        margin: 10px;
+        padding: 10px;
+    }
+    .designed-left h2 {
+        font-size: 47px;
+        /* margin: 0; */
+        padding: 0;
+    }
+    .designed-left h3 {
+        line-height: 33px;
+        padding: 0px;
+        font-size: 22px;
+        letter-spacing: -0.5px;
+    }
+    .balance {
+        padding: 0px;
+    }
+    .balance img {
+        width: 40px;
+    }
+    /* -------------brand------------ */
+    .brand h2 {
+        margin: 10px;
+        padding: 10px;
+    }
+    .app {
+        margin: 0;
+        padding: 0;
+    }
+    /* -----------------app--------------- */
+    .app p {
+        width: 80%;
+    }   
+    /* --------------investor------------- */
+    .fuel {
+        width: 90%;
+    }
+    .invest {
+        width: 80%;
+    }
+    .faqs {
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width:950px) {
+    /* ----------section----------- */
+    .button-responsive{
+        margin: 0px 0px 0px 30px;
+    }
+    .rightside img {
+        width: 150px;
+    }
+    /* ------------brand------------ */
+    .brand-tag img {
+        width: 11%;
+    }
+    /* -----------money------------ */
+    .alert h2 {
+        margin: 5px;
+        padding: 5px;
+    }
+    /* app */
+    .app .fa-check {
+        margin: 10px 5px 5px 5px;
+    }
+}
+@media only screen and (max-width:890px) {
+    /* --header--- */
+    .leftside h1 {
+        width: 100%;
+    }
+    /* ----------section----------- */
+    .flip-box {
+        margin-top: 47%;
+    }
+    /* ----reward------ */
+    #reward-button .btn {
+        width: 40%;
+    }
+    .gift h2 {
+        font-size: 2em;
+    }    
+}
+@media only screen and (max-width:767px) {
+    /* ---------header logo-------------- */
+    .logo {
+        padding: 5px 10px 10px 25px;
+    }
+      .nav-res > .nav-link-btn {
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+      }
+      .nav-res > .nav-link-btn > label {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+      }
+      .nav-res > .nav-link-btn > label:hover,.nav  #nav-link-check:checked ~ .nav-link-btn > label {
+        /* background-color: rgba(0, 0, 0, 0.3); */
+      }
+      .nav-res > .nav-link-btn > label > span {
+        display: block;
+        width: 20px;
+        height: 6px;
+        border-bottom: 2px solid grey;
+      }
+      .nav-res > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #171923;
+        /* transition: all 0.3s ease-in; */
+        overflow-y: hidden;
+        top: 30px;
+        left: 0px;
+      }
+      .nav-res > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav-res > #nav-link-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav-res > #nav-link-check:checked ~ .nav-links {   
+        /* background-color: white; */
+        height: 1000px;
+        margin-top: 48px;
+        overflow-y: auto;
+        z-index: 999;
+      }
+      .menu-bar {
+        text-align: left;
+        }
+        .menu-bar ul {
+            display: block;
+        }
+        .fixed ul li a {
+            color: #fff;
+        }
+        .menu-bar ul li {
+            font-size: 16px;
+            padding: 10px 10px 10px 40px;
+            border-bottom: 1px solid grey;
+        }
+        .fa-caret-down{
+            display: none;
+        }
+        nav:first-child .fa-plus{
+            display: inline-block;
+            margin-left: 86% !important;
+        }
+        .nav-link label span:nth-child(2) {
+            display: none;
+        }    
+        .menu-open .nav-res > .nav-link-btn > label > span:nth-child(3) {
+            transform: rotate(45deg);
+            position: relative;
+            top: -2px;
+            left: 2px;
+        }        
+        .menu-open .nav-res > .nav-link-btn > label > span:nth-child(2) {
+            display: none;
+        }        
+        .menu-open .nav-res > .nav-link-btn > label > span:nth-child(1) {
+            transform: rotate(-45deg);
+            position: relative;
+            top: 4px;
+            left: -1px;
+        }
+        /* .nav-res{
+            background-color: #fff;
+        } */
+        .nav-res > #nav-link-check:checked ~ .nav-links {
+            background-color: white;
+        }
+        .nav-res > #nav-link-check:checked ~ .nav-links ul li a{
+            color: black;
+        }
+    /* ----------section----------- */
+    section{ 
+        display: block;
+    }
+    .leftside{ 
+        width: 100%;
+    }
+    .rightside {
+        width: 100%;
+        padding: 15px;
+        margin: 15px;
+    }
+    .flip-box{
+        margin-top: 5%;
+    }
+    .rightside img {
+        width: 200px;
+    }
+    .rightside video {
+        width: 250px;
+    }
+    /* -------------global--------------- */
+    .global {
+        display: block;
+        width: 100%;
+        padding: 0px 0px 0px 40px;
+    }
+    .global h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+    .global h2 {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+    .credit-card {
+        display: block; 
+        width: 90%;
+    }
+    .limit {
+        width: 100%;
+    }
+    /* ----------------bank-------------- */
+    .bank-account {
+        display: block;
+    }
+    .designed-left {
+        width: 100%;
+    }
+    .designed-right {
+        width: 100%;
+    }
+    .designed-left h2 {
+        font-size: 50px;
+        /* margin: 5px; */
+        padding: 5px;
+    }
+    .designed-left h3 {
+        padding: 5px;
+    }
+    /* --------------reward----------- */
+    .reward {
+        width: 90%;
+    }
+    .reward p {
+        margin: 10px;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .gift-10 {
+        display: block;
+        padding: 0px;
+        margin: 0 auto;
+    }
+    .gift {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .gift h2 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 2.5em;
+    }    
+    .gift h3 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 2.5em;
+    }
+    #reward-button{
+        margin: 20px;
+    }
+    #reward-button .btn {
+        width: 50%;
+    }
+    .gift h3 span {
+        font-size: 2.5em;
+    }
+    /* -------------brand---------- */
+    .brand-tag {
+        padding: 0;
+    }
+    .brand-tag img {
+       padding: 0;
+       width: 10%;
+    }
+    /* --------------app------------- */
+    .app p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .app h2, .app h1 {
+        margin: 5px;
+        padding: 5px;
+    }
+    .app p{
+        font-size: 20px;
+    }
+    /* ------------money---------------- */
+    .alert {
+        width: 100%;
+    } 
+    /* -------------secure------------ */
+    .secure {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .secure h2 {
+        margin: 5px;
+        padding: 5px;
+    }
+    .bank {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .lost {
+        margin: 5px;
+        padding: 5px;
+    }
+    .secure-button {
+        padding: 5px;
+        margin: 0px;
+    }
+/* --------------investor------------- */
+    .investor {
+         padding: 10px;
+    }
+     .fuel {
+        width: 100%;
+    }
+    .fuel h2 {
+        width: 40%;
+    }
+    .fuel h3 {
+        padding: 20px;
+    }
+    .invest {
+        width: 100%;
+    }
+    /* -------------harness---------- */
+    .harness {
+        padding: 0;
+    }
+    .freedom {
+        width: 90%;
+    }
+    .harness h3 {
+        margin: 0px 10px 0px 10px;
+        padding: 0px 10px 0px 10px;
+        font-size: 25px;
+    }
+    .invest img {
+        width: 140px;
+    }
+    .triangle p {
+        padding: 0px;
+    }
+    .faqs {
+        width: 90%;
+        margin: 5px auto;
+        padding: 5px;
+    }
+    .faqs h1 {
+        margin: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 10px;
+    }
+    .support {
+        padding: 10px;
+        width: 100%;
+    }
+    .last-logo {
+        margin: 0px;
+        padding: 0px;
+    }
+    .company-support {
+        margin: 0px;
+        padding: 0px;
+    }
+    .deposit {
+        width: 100%;
+        margin: 0 auto;
+    } 
+    .follow {
+        padding: 0px;
+        margin: 0px;
+    }
+    .follow h3 {
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .location {
+        margin: 5px;
+        padding: 5px;
+    }
+    .location h5 {
+        font-size: 10px;
+    }
+    .fdic {
+        width: 100%;
+    }
+    /* ----image ----- */
+    .box-area h1 {
+        margin: 0;
+        padding: 0;
+    }
+    .box-area h3 {
+        margin: 0;
+        padding: 0;
+    }
+    /* --------copyright-------- */
+    .copyright {
+        margin: 0px;
+        padding: 0px;
+    }
+    .copyright p {
+        width: 100%;
+    }    
+    .alert-flex {
+        width: 100%;
+    }
+    .fdic p {
+        letter-spacing: 0px;
+    }
+}
+@media only screen and (max-width:720px) {
+    nav:first-child .fa-plus{
+        margin-left: 85% !important;
+    }
+    .wave img {
+        display: none;
+    }    
+}
+@media only screen and (max-width:648px) {
+    nav:first-child .fa-plus{
+        margin-left: 83% !important;
+    }
+}
+@media only screen and (max-width:580px) {
+    nav:first-child .fa-plus{
+        margin-left: 80% !important;
+}
+@media only screen and (max-width:565px) {
+    /* -----image slider----- */
+    .slick-slide img{
+        width: 100px;
+    }
+    /* ------dream------ */
+    .all-prime .btn {
+        font-size: 12px;
+    }
+    .all-prime .btn img {
+        width: 10px;
+    }
+    /* ------account------ */
+    .designed-right .btn {
+        font-size: 12px;
+    }
+    /* -----secure----- */
+    .secure .btn {
+        font-size: 12px;
+    }
+    .secure .btn img {
+        width: 10px;
+    }
+    /* --------reward---------- */
+    .reward p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 25px;
+    }
+    /* --------------fuel------------ */
+   .fuel h2 {
+        height: 210px;
+     }
+     .fuel h3 {
+        padding: 0;
+        line-height: 50px;
+    }
+    /* -------------harness-------- */
+    .harness h2 {
+        font-size: 40px;
+    }
+    /* -----------------investor----------- */
+    .invest img {
+        width: 125px;
+    }
+    .faqs p {
+        width: 100%;
+    }
+    .nav-res > .nav-links {
+        top: 26px;
+     }
+    .button-responsive {
+      margin: 0px;
+      }
+      nav .btn {
+          width: 40%;
+      }
+}
+@media only screen and (max-width:540px) {
+    /* ----------header----------- */
+    .site-header {
+        padding: 0;
+    }
+    .logo {
+        padding: 2px 10px 10px 0px;
+    }
+    .logo img {
+        padding: 10px 10px 10px 30px;
+        width: 170px;
+    }
+    .leftside h1 {
+        font-size: 30px;
+    }
+    .leftside p {
+        font-size: 15px;
+    }
+    .rightside img {
+        width: 100px;
+    }
+    .flip-box {
+        width: 100px;
+        margin-left: 15%;
+        margin-top: 20%;
+    }
+    .rightside video {
+        width: 150px;
+    }
+    /* -----client tag------------ */
+    .client {
+        padding: 10px;
+        margin: 10px;
+    }
+    .global {
+        padding: 10px;
+    }
+    .global h1 {
+        font-size: 45px;
+    }
+    .global h2 {
+        font-size: 23px;
+    }
+    .credit-card {
+        margin: 0 auto;
+        padding: 0px;
+    }
+    .limit {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .limit h3 {
+        padding: 0px;
+    }
+    .limit p {
+        font-size: 15px;
+    }
+    /* ----------dream---------- */
+    .prime-rate {
+        margin: 0px;
+        padding: 10px;
+    }
+    .dream {
+        margin: 0px;
+        padding: 10px;
+    }
+    .dream h2 {
+        padding: 10px;
+        font-size: 40px;
+    }
+    .all-prime .btn {
+        padding: 0px 30px;
+        width: 30%;
+    }
+    .zolve-card img {
+        width: 110px;
+    }
+    .btn {
+        padding: 0px 30px;
+    }
+    /* -------------bank account------------ */
+    .bank-account {
+        margin: 0px;
+        padding: 8px;
+    }
+    .big-dot-account {
+        display: none;
+    }
+    .designed-left {
+        margin: 0px;
+        padding: 0px;
+    }
+    .designed-left h2 {
+        font-size: 40px;
+        margin: 5px;
+    }
+    .designed-left h3 {
+        line-height: 23px;
+        font-size: 17px;
+    }
+    .designed-right .btn {
+        padding: 0px 30px;
+    }
+    /* -----------reward------------ */
+    .reward {
+        width: 100%;
+    }
+    .all-reward a {
+        font-size: 16px;
+    }
+    #reward-button .btn {
+        width: 50%;
+        padding: 5px 30px;
+    }
+    .gift h2 {
+        margin: 5px;
+        padding: 5px;
+        font-size: 1.5em;
+    }
+    .gift h3 {
+        margin: 5px;
+        padding: 5px;
+    }
+    /* -----------------brand----------- */
+    .brand h2 {
+        margin: 10px;
+        padding: 10px;
+    }
+    .app h1 {
+        font-size: 40px;
+    }
+    .app p {
+        font-size: 16px;
+    }
+    /* -----------secure----------- */
+    .secure h2 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 45px;
+    }
+    .secure .btn {
+        padding: 0px 30px;
+        width: 27%;
+    }
+    .lost {
+        margin: 0px;
+        padding: 0px;
+    }
+    .lost p {
+        font-size: 13px;
+    }
+    .lost h3 {
+        margin: 0px;
+        padding: 0px;
+    }
+    /* --------------investor----------- */
+    .fuel h2 {
+        height: 155px;
+        font-size: 40px;
+    }
+    .fuel h3 {
+        padding: 0px 0px 0px 20px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    /* ------------harness----------- */
+    .freedom {
+        width: 100%;
+    }
+    .big-dot-harness {
+        display: none;
+    }    
+    .harness h2 {
+        font-size: 35px;
+    }    
+    .harness h3 {
+        font-size: 23px;
+    }
+    .box-area {
+        padding: 0px;
+    }
+    .box-area h1 {
+        margin: 5px 10px 5px 10px;
+        padding: 5px 10px 5px 10px;
+    }
+    /* -----------faqs------------ */
+    .faqs h2 {
+        font-size: 23px;
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+    }
+    /* -----------support--------- */
+    .support {
+        display: block;
+    }
+    .last-logo {
+        text-align: center;
+    }
+    .company-support {
+        width: 100%;
+    }
+    .company-support p {
+        margin: 5px;
+    }
+    /* --------------conversation -------- */
+    .follow h2 {
+        font-size: 10px;
+    }
+    .follow h3 {
+        font-size: 13px;
+    }
+    .follow h4 {
+        font-size: 13px;
+    }    
+    .fdic {
+        font-size: 9px;
+    }
+    .fdic p {
+        padding: 2px;
+        margin: 2px;
+    }
+    /* ----------image--------- */
+    .box-flex {
+        display: inline;
+    }
+    .box-area h3 {
+        margin: 0px 0px 0px 10px;
+        padding: 0px 0px 0px 10px;
+        line-height: 2;
+    }
+    /* ------------copyright--------- */
+    .copyright {
+        font-size: 6px;
+    }
+}
+@media only screen and (max-width:520px) {
+    .fa-dot-circle-o {
+        line-height: 2.0;
+    }
+    nav:first-child .fa-plus{
+        margin-left: 78% !important;
+    }
+    /* ---secure--- */
+    .secure .btn{
+        width: 35%;
+    }
+@media only screen and (max-width:474px) {
+    nav:first-child .fa-plus{
+        margin-left: 77% !important;
+    }
+    nav ul li:nth-child(5) .fa-plus {
+        margin-left: 80% !important;
+    }
+}
+@media only screen and (max-width:445px) {
+    nav:first-child .fa-plus{
+        margin-left: 75% !important;
+    }
+}
+@media only screen and (max-width:440px) {
+    /* -------header--------- */
+    nav .btn {
+        width: 50%;
+    }
+    .logo img {
+        padding: 10px;
+    }
+    nav .btn {
+        width: 50%;
+    }
+    .menu-bar ul li {
+        padding: 10px;
+    }
+    .leftside {
+        padding: 5px;
+    }
+    .leftside h1 {
+        font-size: 32px;
+        padding: 5px;
+    }
+    .leftside p {
+        padding: 5px;
+    }
+    .button-responsive{
+        text-align: center;
+    }
+    .flip-box {
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+    /* --------slider------- */
+    .slick-slide img{
+        width: 70px;
+    }
+    /* ---global------- */
+    .global h1 {
+        font-size: 40px;
+    }
+    .global h2 {
+        padding: 0px;
+    }
+    .credit-card {
+        width: 85%;
+    }
+    /* -----dream-------- */
+    .dream h2 {
+        padding: 5px;
+        font-size: 27px;
+    }
+    .all-prime .btn {
+        width: 35%;
+    }
+    .image-wrap {
+        display: block;
+    }
+    .offer {
+        width: 100%;
+    }
+    .btn {
+        line-height: 30px;
+    }
+    /* --------bank account-------- */
+    .designed-left h2 {
+        font-size: 35px;
+    }
+    .designed-right .btn {
+        line-height: 30px;
+    }
+    /* -----reward------- */
+    .reward {
+        padding: 10px;
+    }
+    .reward p {
+        font-size: 21px;
+    }
+    .gift-button {
+        padding: 20px;
+    }
+    .gift h2 span {
+        font-size: 4em;
+    }
+    .gift h3 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.5em;
+    }
+    #reward-button {
+        margin: 5px;
+    }
+    #reward-button .btn {
+        width: 65%;
+        line-height: 25px;
+    }
+    .gift-button p {
+        float: revert;
+    }
+    /* --brand---- */
+    .brand h2 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .brand-tag img {
+        width: 13%;
+    }
+    .app h1 {
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .alert-flex {
+        margin: 0px;
+        padding: 0px;
+    }
+    .secure h2 {
+        font-size: 40px;
+    }
+    .secure .btn {
+        width: 50%;
+    }
+    .bank {
+        display: block;
+    }
+    /* ---investor---- */
+    .fuel {
+        display: block;
+    }
+    .fuel h2 {
+        height: 138px;
+        font-size: 30px;
+    }
+    .fuel h3 {
+        padding: 0px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .invest img {
+        width: 75px;
+    }
+    /* ---harness--- */
+    .harness h2 {
+        margin: 2px;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .harness h3 {
+        margin: 5px;
+        padding: 5px;
+        font-size: 18px;
+    }
+    .triangle {
+        margin: 0px;
+        padding: 0px;
+    }
+    .triangle p {
+        margin: 0 auto;
+    }
+    /* ----faqs--- */
+    .faqs {
+        width: 100%;
+    }
+    .faqs h2 {
+        font-size: 15px;
+        margin: 5px;
+        padding: 2px;
+    }
+    .fa-dot-circle-o {
+        line-height: 0;
+        font-size: 18px;
+    }
+    /* ---images---- */
+    .box-area h1 {
+        font-size: 15px;
+    }
+    /* ----support--- */
+    .company-support {
+        width: 100%;
+        display: block;
+    }
+    /* ----conversation------ */
+    .conversation {
+        padding: 5px;
+        margin: 5px;
+    }
+    .deposit {
+        width: 100%;
+        margin: 5px auto;
+        display: block;
+    }
+    /* --reward---- */
+    .gift-button {
+        min-height: 340px;
+    }
+    /* copyright */
+    .help span{
+        display: none;
+    }
+    .help h2 {
+        padding: 10px;
+    }    
+}
+@media only screen and (max-width:416px) {
+    nav:first-child .fa-plus{
+        margin-left: 75% !important;
+    }   
+}
+@media only screen and (max-width:384px) {
+    nav:first-child .fa-plus{
+        margin-left: 71% !important;
+    }
+    .fuel h3 {
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:378px) {
+    nav ul li:nth-child(5) .fa-plus {
+        margin-left: 79% !important;
+    }    
+}
+@media only screen and (max-width:342px) {
+    nav ul li:nth-child(5) .fa-plus {
+        margin-left: 77% !important;
+    }    
+}
+@media only screen and (max-width:340px) {
+    nav:first-child .fa-plus{
+        margin-left: 70% !important;
+    }
+}
+@media only screen and (max-width:322px) {
+    nav:first-child .fa-plus{
+       display: none;
+    }
+    .fa-caret-down{
+        display: inline-block;
+    }
+}

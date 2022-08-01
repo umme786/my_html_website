@@ -1,0 +1,613 @@
+@media only screen and (max-width:1800px) {
+   /* header */
+   header ul li:nth-child(5) {
+    margin-left: 44vw;
+  }
+}
+@media only screen and (max-width:1758px) {
+  /* header */
+  header ul li:nth-child(5) {
+    margin-left: 39vw;
+  }
+}
+@media only screen and (max-width:1620px) {
+  /* header */
+  header ul li:nth-child(5) {
+    margin-left: 33vw;
+  }
+}
+@media only screen and (max-width:1500px) {
+  /* header */
+  header ul li:nth-child(5) {
+    margin-left: 29vw;
+  }
+  /* slider 2 */
+  .swiper {
+    margin-top: -7rem;
+  }
+  .plat{
+    margin: 0px !important;
+  }
+  .filter-active {
+    width: unset;
+  }
+}
+.banner-section section .image button {
+  margin: 18px;
+}
+@media only screen and (max-width:1380px) {
+    /* header */
+    header ul li:nth-child(5) {
+      margin-left: 24vw;
+    }
+}
+@media only screen and (max-width:1250px) {
+     /* header */
+     header ul li:nth-child(5) {
+      margin-left: 18vw;
+    }
+  /* slider */
+  .slick-current {
+    width: 325px !important;
+  }
+  /* swiper */
+  .swiper {
+    margin-top: -4rem;
+  }
+  .banner-section section .image h2 {
+    margin: 0px 0px 0px 5px;
+    font-size: 25px;
+  }
+  .banner-section section .image .button-text h2 img {
+    width: 50px !important;
+  }
+}
+@media only screen and (max-width:1229px) {
+       /* header */
+       header ul li:nth-child(5) {
+        margin-left: 16vw;
+      }
+  .slick-prev, .slick-next {
+    top: 36%;
+  }
+}
+@media only screen and (max-width: 1140px) {
+       /* header */
+       header ul li:nth-child(5) {
+        margin-left: 13vw;
+      }
+      /* images */
+      .image-text2 {
+        padding: 10px;
+      }
+      .image-text2 h1 {
+        padding: 0 !important;
+      }
+      .image-text2 p {
+        margin: 5px;
+      }
+      .image-text2 h4 {
+        margin: 5px;
+        font-size: 7px;
+      }
+      .all-image .image-text2 h3 img { 
+        width: 33px;
+      }
+      .all-image .image-text2 h3 span {
+        font-size: 20px;
+      }
+      .all-image {
+        width: 22%;
+      }
+}
+@media only screen and (max-width: 1075px) {
+   /* header */
+   header ul li:nth-child(5) {
+    margin-left: 12.5vw;
+  }
+    header .navbar .nav-logo1 img {
+      width: 150px;
+    }
+    header .navbar .right li:nth-child(1){
+      display: none;
+    }
+    header .navbar .right li{
+      margin: 0;
+    }
+    header .nav-item {
+      margin-left: 1rem;
+   }
+    header nav ul li button {
+      line-height: normal;
+      height: auto;
+      padding: 17px 30px 16px;
+      font-size: 12px;
+    }
+    .filter{
+      width: 98%;
+    }
+    .slick-list {
+      padding: 0px !important;
+    }
+}
+@media only screen and (max-width: 1019px) {
+      /* header */
+      header ul li:nth-child(5) {
+        margin-left: 11vw;
+      }
+  .display-res{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1005px) {
+   /* header */
+   header ul li:nth-child(5) {
+    margin-left: 10vw;
+  }
+  .image-text2 h3 {
+    padding: 0px; 
+  }
+  .image-text2 {
+    padding: 0px;
+  }
+  .game {
+    width: auto;
+  }
+  .footer .game button {
+    padding: 10px 10px 10px 10px;
+  }
+  /* swiper */
+  .swiper {
+    width: 70%;
+  }
+  .swiper {
+    margin-top: -2rem;
+  }
+  .slick-prev, .slick-next {
+    top: 45%;
+  }
+}
+@media only screen and (max-width: 918px){
+   /* header */
+   header ul li:nth-child(5) {
+    margin-left: 6vw;
+  }
+  .form-flex {
+    display: block; 
+  }
+  .filter-active {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 870px) {
+   /* header */
+   header ul li:nth-child(5) {
+    margin-left: 2vw;
+  }
+  .filter-form {
+    display: none;
+}
+}
+@media only screen and (max-width: 842px) {
+  /* header */
+  .nav-logo1{
+    display: none;
+  }
+  .nav-logo2{
+    display: block;
+  }
+  /* banner */
+  .banner-section {
+    padding: 20px 0px 10px 0px;
+  }
+  .banner-section h1 {
+    padding: 40px 20px 15px 20px;
+    margin: 50px 20px 15px 20px;
+  }
+    /* slider */
+    .slick-active {
+      width: 275px !important;
+    }
+  /* images */
+  .image-text2 span {
+    color: grey;
+    padding: 2px 0px 0px 0px;
+  }
+  .image-text2 h3 {
+    padding: 5px;
+    text-align: left;
+  }
+  /* footer */
+  .footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .banner-section {
+    padding: 20px 0px 0px 0px;
+    }
+    .section1 {
+      padding: 10px 10px 0px 10px;
+    }
+    .swiper {
+        margin-top: 0rem;
+    }
+}
+  @media only screen and (max-width: 768px) {
+    header .nav-menu{
+          position: fixed;
+          left: -100%;
+          top: 4rem;
+          flex-direction: column;
+          background-color: black;
+          width: 100%;
+          border-radius: 10px;
+          text-align: center;
+          box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+      }
+    header .nav-menu.active {
+          left: 0;
+          z-index: 9;
+      }
+  
+    header .nav-item {
+          margin: 2.5rem 0;
+      }
+  
+     header .hamburger {
+          display: block;
+          cursor: pointer;
+      }
+  
+     header .hamburger.active .bar:nth-child(2) {
+          opacity: 0;
+      }
+  
+     header .hamburger.active .bar:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+      }
+  
+     header .hamburger.active .bar:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+      }
+
+      header .nav-menu.active {
+        height: 2000px;
+    }
+    header .nav-item {
+        width: 90%;
+        border-bottom: 0.5px solid #333333;
+        margin: 0px;
+        padding: 20px;
+      }
+    header ul li:nth-child(5){
+      border-bottom:none;
+    }
+    header ul li:nth-child(6){
+      border-bottom:none;
+    }
+    header ul li:last-child{
+      border-bottom:none;
+    }
+      header .nav-link {
+        font-size: 1.1rem;
+      }
+      header ul li a{
+        color: white !important;
+      }
+      header nav ul li button {
+        padding: 17px 75px 16px;
+      }    
+          /* banner */
+          .banner-section section .image h2 {
+            font-size: 20px;
+          }    
+          .banner-section section .image .button-text h2 img {
+            width: 40px !important;
+          }    
+          .banner-section section .image h3 {
+            font-size: 13px;
+        }    
+        .banner-section section .image h4 {
+          font-size: 10px;
+          margin: 0px 0px 0px 1px;
+          padding: 5px;
+        }  
+        .banner-section section .image:after {
+          background: linear-gradient(to top, rgb(3 3 0 / 30%) 0%,rgba(0,0,0,0) 75%);
+        }
+      /* button */
+      .image-button {
+        margin: 50px 0px 50px 0px;
+     }
+    /* filter */
+    .filter form button {
+      margin: 0px;
+      }
+      .filter ul li {
+        margin: 0px;
+      }
+      /* mode */
+      .night {
+        right: 10px;
+        left: inherit;
+      }
+      .chat {
+        right: 10px;
+        left: inherit;
+      }
+      /* tour cup fixed */
+      .tour-cup{
+        display: block !important;
+        position: fixed;
+        bottom: -6px;
+        z-index: 999999;
+        left: 0rem;
+        background-color: rgba(20, 20, 20, 95%);
+        width: 100%;
+        height: 102px;
+        padding: 1.2rem;
+        border-top: 1px solid #e0e1e6;
+      }
+      .cup{
+      }
+      .cup ul{
+        display: flex;
+        text-align: center;
+        align-items: center;
+      }
+      .cup ul li span{
+        width: 100%;
+        color: grey;
+      }
+      .cup ul li img:last-child{
+        width: 45px;
+      }
+    }
+    @media only screen and (max-width:732px) {
+      .all-image {
+        width: 45%;
+    }
+      .image-text1 {
+        height: 26vw;
+    }
+    .image-text2 {
+      padding: 0px !important;
+    }
+    .search ul li a {
+      padding: 10px;
+    }
+    .slick-active {
+      width: 250px !important;
+    }
+    /* .filter-active {
+      padding: 0px;
+    }
+    .for-center {
+       padding: 0px; 
+       margin: 0px;
+    }
+    .form-flex h2 {
+      padding: 0px;
+      margin: 0px;
+    }
+    .for-border {
+      font-size: 10px;
+      margin: 0px;
+      padding: 0px;
+    } */
+    .banner-section section .image .button-text {
+      position: inherit;
+      left: 0%;
+      text-align: center;
+    }  
+    .slick-track {
+      height: 140px;
+    }
+    .banner-section section .image h2 {
+      margin: 0px 0px 0px 7rem;
+    }
+  }
+  @media only screen and (max-width:722px) {
+    .fa-search {
+      left: 30px;
+      top: 30px;
+    }
+  }
+
+  @media only screen and (max-width:665px) {
+    .all-image {
+      width: 100%;
+  }
+    .image-text1 {
+      margin: 0 auto;
+      height: 40vw;
+    }
+  .all-image button:nth-child(9), .all-image button:nth-child(10), .all-image button:nth-child(11), .all-image button:nth-child(12), .all-image button:nth-child(13), .all-image button:nth-child(14), .all-image button:nth-child(15), .all-image button:nth-child(16), v.all-image button:nth-child(17), .all-image button:nth-child(18), .all-image button:nth-child(19), .all-image button:last-child {
+      top: 2rem;
+      right: 2rem;
+  }
+  .slick-track {
+    height: 170px;
+  }
+  .image-text2 {
+    padding: 20px;
+    text-align: center;
+  }
+  .image-text2 h1 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+  .image-text2 p {
+    margin: 15px 10px 10px 20px;
+    padding: 5px;
+    font-size: 17px;
+  }
+  .image-text2 h4 {
+    margin: 5px;
+    font-size: 12px;
+  }
+  .image-text2 h3 {
+    padding: 10px;
+    text-align: center;
+}
+  }
+  @media only screen and (max-width:642px) {
+    .filter {
+      display: block;
+    }
+    .filter form{
+      text-align: center;
+    }
+    .filter form button {
+      margin: 10px;
+    }
+    .filter ul {
+        justify-content: center;
+    }
+    .filter ul li {
+      margin: 5px;
+    }
+    .search ul {
+      display: block;
+    }
+    .search ul li:first-child {
+      text-align: center;
+  }
+  .search ul li:last-child {
+    text-align: center;
+}
+    /* footer */
+    .footer {
+      display: block;
+    }
+    .policy {
+      justify-content: center;
+      margin: 0px 0px 0px 10px;
+      padding: 0px 0px 0px 10px;
+  }
+  .game {
+    text-align: center;
+    }
+    .slick-active {
+      width: 225px !important;
+    }
+  }
+  @media only screen and (max-width:625px) {
+  .fa-search {
+    left: 34%;
+  }
+}
+  @media only screen and (max-width:615px) {
+    #search {
+      width: 75vw;
+    }
+    .fa-search {
+      left: 13%;
+    }  
+  }
+    @media only screen and (max-width:540px) {
+      /* banner */
+      .banner-section h1 {
+        font-size: 1em;
+      }
+      .banner-section section .image h2 {
+        margin: 0px 0px 0px 3rem;
+    }
+      /* button */
+      .image-button {
+        margin: 20px auto;
+    }
+      .all-image button:nth-child(9), .all-image button:nth-child(10), .all-image button:nth-child(11), .all-image button:nth-child(12), .all-image button:nth-child(13), .all-image button:nth-child(14), .all-image button:nth-child(15), .all-image button:nth-child(16), v.all-image button:nth-child(17), .all-image button:nth-child(18), .all-image button:nth-child(19), .all-image button:last-child {
+        top: 2rem;
+        right: 2rem;
+    }
+    .image-text2 h1 {
+      padding: 10px 0px 10px 0px !important;
+  }
+    .slick-active {
+      width: 200px !important;
+    }
+    .banner-section section .image button {
+      top: 0rem;
+    }
+    .banner-section section .image .button-text {
+      left: -6%;
+    }
+    .slick-next {
+      right: 43px !important;
+  }  
+    @media only screen and (max-width:450px) {
+      /* banner */
+      .banner-section section .image button {
+        left: 8rem;
+      }    
+      .banner-section section .image h2 {
+        margin: 0px 0px 0px 7rem;
+    }
+      .slick-active {
+        width: 362px !important;
+    }
+    .swiper {
+      width: 90%;
+    }  
+    .slick-prev, .slick-next {
+      top: 28%;
+  }
+    /* .slick-prev, .slick-next {
+      top: 43%;
+  } */
+  .slick-prev {
+    left: 25px !important;
+  }
+  .all-image button:nth-child(9), .all-image button:nth-child(10), .all-image button:nth-child(11), .all-image button:nth-child(12), .all-image button:nth-child(13), .all-image button:nth-child(14), .all-image button:nth-child(15), .all-image button:nth-child(16), v.all-image button:nth-child(17), .all-image button:nth-child(18), .all-image button:nth-child(19), .all-image button:last-child {
+    right: 1rem;
+  }
+    }
+    @media only screen and (max-width:318px) {
+      .filter ul li {
+        margin: 0px;
+      }
+      .image-text2 {
+        padding: 0px !important;
+    }
+    .image-text2 h1 {
+      margin: 0px;
+      padding: 0px !important;
+      font-size: 20px;
+    }
+    .all-image button:nth-child(9), .all-image button:nth-child(10), .all-image button:nth-child(11), .all-image button:nth-child(12), .all-image button:nth-child(13), .all-image button:nth-child(14), .all-image button:nth-child(15), .all-image button:nth-child(16), v.all-image button:nth-child(17), .all-image button:nth-child(18), .all-image button:nth-child(19), .all-image button:last-child {
+      top: 0.2rem;
+      right: 2rem;
+    }
+    .banner-section section .image .button-text {
+      left: 0%;
+    }
+    .image-text2 p {
+      margin: 5px;
+      font-size: 11px;
+    }
+    .image-text2 h4 {
+      margin: 5px;
+      font-size: 8px;
+    }
+    .all-image-wrap {
+      padding: 0px;
+    }
+    .slick-prev, .slick-next {
+      top: 23%;
+    }
+    .slick-next {
+      right: 45px !important;
+  }
+}
+    @media only screen and (max-width:290px) {
+      .filter ul {
+        text-align: center;
+        display: block; 
+    }
+    .all-image button:nth-child(9), .all-image button:nth-child(10), .all-image button:nth-child(11), .all-image button:nth-child(12), .all-image button:nth-child(13), .all-image button:nth-child(14), .all-image button:nth-child(15), .all-image button:nth-child(16), v.all-image button:nth-child(17), .all-image button:nth-child(18), .all-image button:nth-child(19), .all-image button:last-child {
+      display: none;
+  }
+  }

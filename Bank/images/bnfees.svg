@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="58px" viewBox="0 0 54 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bnfees</title>
+    <g id="New-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bnfees" transform="translate(0.000000, 1.000000)">
+            <rect id="Rectangle" x="0" y="0" width="54" height="55"></rect>
+            <g id="Group-12" transform="translate(5.000000, 1.000000)">
+                <g id="streamline-icon-road-sign-banned@140x140">
+                    <ellipse id="Oval" fill="#000000" fill-rule="nonzero" opacity="0.100000001" cx="21.5" cy="33.4782609" rx="21.5" ry="21.5217391"></ellipse>
+                    <path d="M13.1388889,8.609538 C13.1388889,13.3644545 16.9503078,17.219076 21.6519313,17.219076 C26.3535548,17.219076 30.1649737,13.3644545 30.1649737,8.609538 C30.1649737,3.85462146 26.3535548,0 21.6519313,0 C16.9503078,0 13.1388889,3.85462146 13.1388889,8.609538 Z" id="Path" stroke="#FF6633" stroke-width="2.42119565" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="16.4398645" y1="3.33839229" x2="27.7326758" y2="14.759208" id="Path" stroke="#FF6633" stroke-width="2.42119565" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+                <g id="streamline-icon-money-bag-dollar@140x140" transform="translate(3.605604, 22.431653)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.42119565">
+                    <path d="M20.9326536,10.24945 L16.8119357,10.24945 C15.5093959,10.2503701 14.3903132,11.1850056 14.1431402,12.4783747 C13.8959672,13.7717438 14.5900857,15.0607964 15.7984783,15.5525154 L19.9820306,17.2457246 C21.1904232,17.7374436 21.8845416,19.0264962 21.6373686,20.3198653 C21.3901956,21.6132344 20.271113,22.5478699 18.9685731,22.54879 L14.8519091,22.54879" id="Path"></path>
+                    <line x1="17.8922813" y1="10.24945" x2="17.8922813" y2="8.7120325" id="Path"></line>
+                    <line x1="17.8922813" y1="24.0862075" x2="17.8922813" y2="22.54879" id="Path"></line>
+                    <line x1="7.25097835" y1="1.024945" x2="28.5335843" y2="1.024945" id="Path"></line>
+                    <path d="M8.08809419,5.6371975 L2.49380919,12.1968455 C-0.298889282,15.8681887 -0.78660093,20.8252854 1.23600157,24.9811906 C3.25860407,29.1370957 7.44019136,31.7699218 12.020309,31.7712451 L23.756146,31.7712451 C28.3362637,31.7699218 32.517851,29.1370957 34.5404535,24.9811906 C36.563056,20.8252854 36.0753443,15.8681887 33.2826458,12.1968455 L27.6883608,5.6371975" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

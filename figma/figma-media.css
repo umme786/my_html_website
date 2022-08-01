@@ -1,0 +1,341 @@
+ /*------------------@media only screen and (max-width:1024px) ----------------------*/
+@media only screen and (max-width:1024px) {
+    .logo img {
+        width: 300px;
+        padding: 20px;
+    }    
+    li {
+        padding: 15px 40px;
+        margin: 15px;
+    }
+    .banner{
+        width: 60%;
+        padding: 18px;
+    }
+    .banner h1{
+        font-size: 55px;
+        font-weight: 600;
+        line-height: 70px;
+        width: 85%;
+    }
+    .banner p{
+        line-height: 25px;
+    }
+    .business-unlock{
+        margin: 10px 17px;
+        padding: 10px 17px;
+   }
+   .business-unlock h2{
+       width: 50%;
+       padding: 10px 17px;
+    }
+    .business-section{
+        margin: 5px 25px;
+        padding: 5px 25px;
+    }
+    .business .fa{
+        font-size: 30px;
+     }
+     .business h3{
+        width: 65%;
+        font-size: 13px;
+   }
+    .why-us{
+        padding: 9px;
+     }
+     .why-us h2{
+        margin: 8px;
+        padding: 8px;
+     }
+     .start p{
+        width: 60%;
+    }
+     .people{
+        margin: 0;
+        padding: 0;
+     }
+    .people .fa{
+        font-size: 30px;
+        padding: 0px;
+        margin: 0px;
+    }
+    .people h3{
+       font-size: 13px;
+    }
+    .verified{
+        margin: 0px;
+        padding: 0px;
+    }
+    .our-client h2{
+        padding: 8px;
+        font-size: 27px;
+        width: 40%;
+    }
+    .join h2{
+        padding: 7px 5px;
+        margin-top: 25px;
+     }
+     .join span{
+        width: 50%;
+    }
+    .join p{
+        margin: 5px 0px;
+        width: 85%;
+     }
+     .click button[type=submit] {
+        padding:10px 25px;
+        margin: 15px;
+        }
+    .click-here button[type=submit] {
+        padding:10px 25px;
+        margin: 15px;
+        }
+    .footer-logo {
+        margin: 3px;
+        padding: 3px;
+        }
+        
+    .footer-logo img {
+        padding: 3px;
+        margin: 3px;
+        }
+}
+
+ /*------------------@media only screen and (max-width:768px) ----------------------*/
+@media only screen and (max-width: 768px) {
+    li {
+        padding: 12px 30px;
+        margin: 10px;
+    }
+    li:nth-child(3){
+        display: none;
+    }
+    .header-banner{
+      padding: 20px;
+    }
+    .banner{
+        width: 70%;
+        padding: 15px;
+    }
+    .banner h1{
+        font-size: 50px;
+        font-weight: 450;
+        line-height: 60px;
+        width: 90%;
+    }
+    .banner p{
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+    .banner-section h2{
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .business-unlock{
+        margin: 10px 14px;
+        padding: 10px 14px;
+   }
+   .business-unlock h2{
+        width: 70%;
+        padding: 10px 15px;
+    }
+    .business-section{
+        margin: 5px 17px;
+        padding: 5px 17px;
+    }
+    .business .fa{
+        margin: 8px;
+        padding: 8px;
+        font-size: 25px;
+     }
+     .business h3{
+        width: 75%;
+        font-size: 11px;
+   }
+    .why-us{
+         padding: 7px;
+     }
+     .why-us h2{
+        margin: 7px;
+        padding: 7px;
+     }
+     .start p{
+        width: 70%;
+        padding: 8px;
+        font-size: 13px;
+    }
+    .people .fa{
+        font-size: 25px;
+    }
+    .people h3{
+       font-size: 10px;
+    }
+    .our-client{
+        margin: 5px;
+        padding: 5px;
+   }
+   .our-client h2{
+       padding: 5px;
+        font-size: 24px;
+       width: 50%;
+    }
+    .client img{
+     width: 50px;
+    }
+     .join img{
+         margin: 30px 0px;
+   }
+     .join h2{
+        padding: 5px;
+        margin-top: 20px;
+    }
+    .join span{
+        width: 70%;
+    }
+    .join p{
+        padding: 0px;
+        font-size: 10px;
+        margin: 10px 0px;
+        width: 90%;
+     }
+     .click button[type=submit] {
+        padding:10px 20px;
+        margin: 10px;
+        }
+    .click-here button[type=submit] {
+        padding:10px 20px;
+        margin: 10px;
+        }
+    .footer{
+        padding: 5px;
+         }
+    .footer-logo {
+        margin: 2px;
+        padding: 2px;
+        }
+        
+    .footer-logo img {
+        padding: 2px;
+        margin: 2px;
+        }
+}
+
+ /*------------------@media only screen and (max-width:540px) ----------------------*/
+@media only screen and (max-width:540px) {
+    .active{
+        display: none;
+    }
+    .banner{
+        width: 80%;
+        padding: 12px;
+    }
+    .banner h1{
+        font-size: 40px;
+        font-weight: 350;
+        line-height: 50px;
+        width: 95%;
+    }
+    .banner p{
+        line-height: 18px;
+    }
+    .banner-section h2{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .business-unlock{
+        margin: 10px;
+        padding: 10px;
+   }
+    .business-unlock h2{
+        width: 90%;
+        padding: 10px 12px;
+    }
+    .business-section{
+        margin: 5px 14px;
+        padding: 5px 14px;
+    }
+    .business .fa{
+        margin: 5px;
+        padding: 5px;
+        font-size: 22px;
+     }
+     .business h3{
+        width: 85%;
+   }
+   .why-us{
+       padding: 5px;
+     }
+     .why-us h2{
+        margin: 5px;
+        padding: 5px;
+     }
+     .start{
+        margin: 5px;
+        padding: 5px;
+     }
+     .start p{
+        width: 80%;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .people .fa{
+        font-size: 20px;
+    }
+    .our-client{
+        margin: 0px;
+        padding: 0px;
+    }
+   .our-client h2{
+        font-size: 20px;
+        width: 60%;
+    }
+    .client-logo{
+        margin: 5px;
+        padding: 5px;
+   }
+   .client{
+        margin: 2px;
+        padding: 2px;
+    }
+    .client img{
+       width: 40px;
+       padding: 0px;
+    }
+    .join img{
+       margin: 20px 0px;
+    }
+    .join h2{
+       padding: 0px;
+       margin-top: 10px;
+    }
+    .join span{
+        padding: 0px;
+        margin: 0px;
+        width: 80%;
+    }
+    .join p{
+        margin: 5px 0px;
+        width: 95%;
+     }
+     .click button[type=submit] {
+        padding:10px 15px;
+        margin: 5px;
+        }
+    .click-here button[type=submit] {
+        padding:10px 15px;
+        margin: 5px;
+        }
+    .copyright{
+        display: block;
+    }
+    .expeneur1{
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+    }
+    .expeneur2{
+        width: 100%;
+        margin: 5px;
+        padding: 10px;
+    }
+}

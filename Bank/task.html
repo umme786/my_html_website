@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Zolve </title>
+ <link rel="shortcut icon" href="https://zolve.com/static/images/favicon.ico" type="image/x-icon">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/task.css">
+<link rel="stylesheet" href="css/task-media.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader-web"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+            <!---------------------page wrapper start----------------->
+            <!---------------------header start----------------->
+        <header class="site-header clearfix">
+                <nav>
+                    <div class="nav-res">
+                            <input type="checkbox" id="nav-link-check">
+                        <div class="logo inline-photo show-on-scroll nav-link-header">
+                            <div class="nav-link-title">
+                                <img id="myImg" src="images/zolve_logo_w.svg"> 
+                            </div>
+                        </div>
+
+                        <div class="nav-link-btn" id="line" onclick="onNavToggle()">
+                            <label for="nav-link-check">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                            </label>
+                        </div> 
+                        
+                        <div id="cross" style="display: none;" onclick="onNavToggle()">
+                        </div>
+
+                        <div class="nav-links" id="nav-bar">
+                            <div class="menu-bar">
+                                <ul>
+                                    <li> <a href="#"> Products <i class="fa fa-caret-down" aria-hidden="true"></i> <i onclick="myFunctionsub(this)" class="fa fa-plus"></i> </a>
+                                        <div class="sub-menu-1">
+                                            <ul>
+                                                <li> <a href="#"> <img src="images/cblur-card.png"> Zolve Credit card </a></li>
+                                                <li> <a href="#"> <img src="images/white_card-svg.png"> Zolve Account </a></li>
+                                                <li> <a href="#"> <img src="images/cap-w-svg.png"> Student Loan </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>                   
+                                    <li class="active"> <a href="https://zolve.com/about-us"> About Us </a> </li>           
+                                    <li> <a href="#">  Refer a friend </a> </li>           
+                                    <li> <a href="#"> help </a> </li>                  
+                                    <li> <a href="#"> Learn <i class="fa fa-caret-down" aria-hidden="true"></i> <i onclick="myFunctionsub(this)" class="fa fa-plus"></i> </a> 
+                                        <div class="sub-menu-1">
+                                            <ul>
+                                                <li> <a href="#"> <img src="images/blog-svg.png"> Blog </a></li>
+                                                <li> <a href="#"> <img src="images/fterms-svg.png"> Financial Terms </a> </li>
+                                            </ul>
+                                        </div>        
+                                    </li>                   
+                                    <li> <a href="#"> Login </a> </li>
+                                    <li class="btn"> <a href="#button"> <b> Get Started <img src="images/icc.svg"> </b> </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                    <section>
+                            <div class="leftside"> 
+                                <h1 class="fade-in-text inline-photo show-on-scroll"> <bold> Ambitions <span> beyond borders </span> </bold> </h1>
+                                <p> It’s not really time travel, but with Zolve you can apply for a <span> U.S. bank account </span> & <Span> U.S. Credit Card </Span> even before you set foot in America! </p>
+                                <p> <span> <i class="fa fa-check-square-o" aria-hidden="true"></i> Zero Application Fees </span> </p>
+                                <div class="button-responsive inline-photo show-on-scroll"> <button> Get it Now  <img src="images/icc.svg"> </button> 
+                                </div>
+                            </div>  
+                            <div class="rightside"> 
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="images/cblur-card.png" alt="image">
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/cblur-card-b.png" alt="image">
+                                    </div>
+                                    </div>
+                                </div>
+                                <video src="https://zolve.com/static/images/home-ui.mp4" class="mob-h vid-h" playsinline="" autoplay="" loop="" muted=""></video>
+                            </div>
+                    </section>
+        </header>
+
+        <!---------------------header end----------------->
+        <!---------------------tag start----------------->
+        <div class="client inline-photo show-on-scroll">
+            <div class="container">
+                <section class="customer-logos slider inline-photo show-on-scroll">
+                    <div class="slide"><img src="images/6.png"></div>
+                    <div class="slide"><img src="images/2.png"></div>
+                    <div class="slide"><img src="images/3.png"></div>
+                    <div class="slide"><img src="images/4.png"></div>
+                    <div class="slide"><img src="images/5.png"></div>
+                    <div class="slide"><img src="images/6.png"></div>
+                    <div class="slide"><img src="images/7.png"></div>
+                    <div class="slide"><img src="images/8.png"></div>
+                    <div class="slide"><img src="images/3.png"></div>
+                    <div class="slide"><img src="images/12.png"></div>
+                </section>
+            </div>
+        </div>
+        <!---------------------tag end----------------->
+        <!---------------------global start----------------->
+        <div class="fees inline-photo show-on-scroll">
+            <div class="global">
+                <span class="big-dot-tailor"></span>
+                <h1 class="fade-in-text inline-photo show-on-scroll"> Tailor-made <span> for You </span> </h1>
+                <h2> We have re-engineered banking to make money work for you and your global ambitions </h2>
+            </div>
+            <div class="credit-card-main">
+             <div class="all-credit-card">
+                <div class="credit-card">
+                    <div class="limit">
+                        <img src="images/tail-1-svg.png" alt="image">
+                        <h3> No upfront fees </h3>
+                        <p> Moving across countries can be financially overwhelming. A Zolve account comes with no application fee, no annual credit card fee and no monthly bank account fees. </p>
+                    </div>
+                    <div class="limit">
+                        <img src="images/tail-2-svg.png" alt="image">
+                        <h3> No SSN required </h3>
+                        <p> We know you are new to America, your visa, passport and basic personal information is enough to get you started with your Zolve Account. </p>
+                    </div>
+                    <div class="limit">
+                        <img src="images/tail-3-svg.png" alt="image">
+                        <h3> 5-min online application </h3>
+                        <p> Sign up before you leave home, so that when you land in the U.S. you can focus on your dreams, worry-free. </p>
+                    </div>
+                    <div class="limit">
+                        <img src="images/tail-4-svg.png" alt="image">
+                        <h3> High limit credit card </h3>
+                        <p> Whether it’s grocery shopping or that dream laptop or an emergency expense, we’ve got your back with a high limit credit card. </p>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="fees-image inline-photo show-on-scroll"> <img src="images/decor.svg"> </div>
+        </div>
+        <!---------------------global end----------------->
+        <!---------------------dream start----------------->
+        <div class="all-prime inline-photo show-on-scroll">
+            <div class="prime-rate">
+                <div class="dream">
+                    <h2 class="fade-in-text inline-photo show-on-scroll"> <span> Giving </span> your dream <span> the </span> credit’s due. </h2>
+                    <h3> Access to money should be the least of your worries when you have aimed to win the world. With a high limit U.S. credit card with no annual fee, we give you the power to do more from Day 1. </h3>
+                    <div class="image-wrap">
+                        <div class="offer">
+                            <img src="images/cc1.svg" alt="image"> <p> No Annual fee </p>
+                        </div>
+                        <div class="offer">
+                            <img src="images/cc2.svg" alt="image"> <p> 0% APR for 6 months (introductory offer)* </p>
+                        </div>
+                        <div class="offer">
+                            <img src="images/cc3.svg" alt="image"> <p> International card with no foreign transaction fees  </p>
+                        </div>
+                        <div class="offer">
+                            <img src="images/cc4.svg" alt="image"> <p> No Credit History nor SSN required  </p>
+                        </div>
+                        <div class="offer">
+                            <img src="images/cc5.svg" alt="image"> <p> Amazing partner store reward programs </p>
+                        </div>
+                        <div class="offer">
+                        <img src="images/cc6.svg" alt="image">  <p> High credit limit upto $10,000 </p>
+                        </div>
+                    </div>
+                    <h4> *After 6 months APR will be 14.99% (variable with prime rate as follows: 11.74% + WSJ Prime Rate) </h4>
+                    <div class="prime-image inline-photo show-on-scroll"> <img src="images/decor.svg"> </div>
+                </div>
+                <div class="zolve-card">
+                    <div class="zolve-wh">
+                        <div class="zolve1">
+                            <img class="loading inline-photo show-on-scroll" src="images/1234.png" alt="images">
+                        </div>
+                        <div class="zolve2">
+                            <img class="loading2 inline-photo show-on-scroll" src="images/123.png" alt="images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn inline-photo show-on-scroll"> <a href="#button"> <b> Apply Now  <img src="images/icc.svg"> </b> </a> </div>
+        </div>
+        <!---------------------dream end----------------->
+        <!---------------------bank account start ----------------->
+        <div class="bank-account inline-photo show-on-scroll">
+            <div class="designed-left inline-photo show-on-scroll">
+                <span class="big-dot-account"></span>
+                <h2 class="fade-in-text inline-photo show-on-scroll"> <span>  An account, </span> designed for You </h2>
+                <h3> <span> Apply for a U.S. Bank Account at home </span> and operate when you arrive. <br>  It’s safer than carrying cash. </h3>
+             <div class="all-balance inline-photo show-on-scroll">
+                <div class="balance">
+                    <div class="image-p inline-photo show-on-scroll">
+                        <img src="images/bnfees.svg" alt="image">
+                        <p> No min balance required </p>
+                    </div>
+                    <div class="image-p inline-photo show-on-scroll">
+                        <img src="images/bnupfees.svg" alt="image">
+                        <p> No upfront account fees </p>
+                    </div>
+                    <div class="image-p inline-photo show-on-scroll">
+                        <img src="images/bnssn.svg" alt="image">
+                        <p> No SSN required </p>
+                    </div>
+                </div>
+             </div>
+             <div class="bank-image inline-photo show-on-scroll"> <img src="images/decor.svg"> </div>
+            </div>
+            <div class="designed-right inline-photo show-on-scroll">
+                <div class="image-button">
+                    <img class="loading" src="images/white2.png" alt="image">
+                    <div class="button-w">
+                            <div class="btn inline-photo show-on-scroll"> <a href="#button"> <b> Apply Now <img src="images/btn.svg"> </b> </a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------bank account end----------------->
+        <!---------------------reward start ----------------->
+        <div class="all-reward inline-photo show-on-scroll">
+            <div class="reward">
+                <div class="error inline-photo show-on-scroll"> <img src="images/Open a US Bank A.gif"></img> </div>
+                <p class="fade-in-text inline-photo show-on-scroll"> <span> Rewards </span> so awesome, <br> you'll be <span> spoiled for choice </span> </p>
+
+            </div>
+            <div class="gift-button inline-photo show-on-scroll">
+                <div class="gift-10 inline-photo show-on-scroll">
+                    <div class="gift inline-photo show-on-scroll">
+                        <h2> Upto<span id="value">10% </span> Cashback </h2>
+                    </div>
+                    <div class="gift inline-photo show-on-scroll">
+                        <h2> <span id="value2"> 10k+ </span> merchants </h2>
+                    </div>
+                    <div class="gift inline-photo show-on-scroll">
+                        <h3> <span> Giftcards </span> for your friends & family </h3>
+                    </div>
+                </div>
+                <div id="reward-button">
+                    <div class="btn inline-photo show-on-scroll"> <a href="#button"> <b> Apply Now <img src="images/btn.svg"> </b> </a> </div>
+                </div>
+                <p> *Valid on Zolve credit card only </p>
+            </div>
+        </div>
+        <!---------------------reward end----------------->
+        <!---------------------brand start---------------->
+            <div class="brand inline-photo show-on-scroll">
+                <h2 class="fade-in-text"> Some of the brands you love </h2>
+                <div class="brand-tag">
+                    <img src="images/a.png" alt="images">
+                    <img src="images/b.png" alt="images">
+                    <img src="images/c.png" alt="images">
+                    <img src="images/d.png" alt="images">
+                    <img src="images/e.png" alt="images">
+                    <img src="images/f.png" alt="images">
+                    <img src="images/g.png" alt="images">
+                </div>
+            </div>
+        <!---------------------brand end----------------->
+        <!---------------------money start----------------->
+        <div class="app inline-photo show-on-scroll">
+            <h1 class="fade-in-text inline-photo show-on-scroll"> <span> Money </span> at your <span> finger tips </span> </h1>
+            <p> A powerful new-age online app to manage your money on-the-go. No need to go to a physical branch. </p>
+            <div class="sleep inline-photo show-on-scroll">
+                <img src="images/sleep.png" alt="images">
+            </div>
+            <div class="payment-alert">
+                <div class="alert">
+                    <div class="alert-flex">
+                        <div class="check"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                        <h2> <span> Payment alerts: </span> You don’t have to track your money, because we are </h2>
+                    </div>    
+                    <div class="alert-flex">
+                        <div class="check"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                        <h2> <span> Seamless payments: </span> Connect to Apple pay, Google pay, Venmo to pay anyone, anywhere </h2>
+                    </div> 
+                    <div class="alert-flex">
+                        <div class="check"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                        <h2> <span> Payment reminders and auto pay: </span> Start building (credit) history by paying bills on time </h2>
+                    </div> 
+                    <div class="alert-flex">
+                        <div class="check"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+                        <h2> <span>  Direct Deposits: </span> Accept your salary/stipend directly into your account </h2>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <!---------------------money end----------------->
+        <!--------------------secure start---------------->
+        <div class="secure">
+           <div class="secure-image">
+               <div class="wave">
+                   <img src="images/waves.svg">
+               </div>
+                <h2 class="fade-in-text inline-photo show-on-scroll"> Safe and Secure. </h2>
+                <div class="bank">
+                    <div class="lost inline-photo show-on-scroll">
+                            <img src="images/ss-1.svg" alt="images">
+                            <h3> Your money is safe with us. </h3>
+                            <p> Your money is protected by FDIC insurance up to $250,000 through our partner bank. </p>
+                    </div>
+                    <div class="lost inline-photo show-on-scroll">
+                        <img src="images/ss-2.svg" alt="images">
+                        <h3> Lost your card? </h3>
+                        <p> Simply freeze/unfreeze the card with just a click on the app. It’s really that easy! </p>
+                    </div>
+                </div>
+                <div class="secure-button">
+                    <div class="btn inline-photo show-on-scroll"> <a href="#button"> <b> Apply Now <img src="images/icc.svg"> </b> </a> </div>
+                </div>
+           </div>
+        </div>
+        <!---------------------secure end----------------->
+        <!---------------------investor start ---------------->
+        <div class="investor inline-photo show-on-scroll">
+            <div class="fuel">
+                <h2 class="fade-in-text inline-photo show-on-scroll"> <span> Our </span> Investors </h2>
+                <h3> We have raised $15 million to fuel dreams - Ours and Yours </h3>
+            </div>
+            <div class="invest fade-in-text inline-photo show-on-scroll">
+                <img src="images/investor1.svg" alt="image">
+                <img src="images/investor2.svg" alt="image">
+                <img src="images/inv3.svg" alt="image">
+            </div>
+            <div class="investor-image inline-photo show-on-scroll"> <img src="images/decor.svg"> </div>
+        </div>
+        <!---------------------investor end----------------->
+        <!--------------------harness end----------------->
+        <div class="harness">
+            <div class="freedom">
+                <span class="big-dot-harness"></span>
+                <h2 class="fade-in-text inline-photo show-on-scroll"> <span> Harness </span> the power of your <span> financial freedom. </span> </h2>
+                <h3> We sweat the finance so you can sweat the important stuff, and make your dream a reality. </h3>
+                <div class="triangle">
+                    <img src="images/elem8.svg" alt="images">
+                    <p> -Know more about us </p>
+                </div>
+            </div>
+        </div>
+        <!--------------------harness end----------------->
+        <!--------------------faqs start---------------->
+    <div class="all-faqs inline-photo show-on-scroll">
+        <div class="faqs">
+            <span class="big-dot-faqs"></span>
+            <h1 class="fade-in-text inline-photo show-on-scroll"> FA<span>Q</span>s </h1>
+              <div class="dot-flex-wrap">
+                  <div class="dot-flex">
+                       <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                  </div>
+                   <div class="dot-flex">
+                        <div class="accordion">  <h2> What is Zolve and why is everyone signing up? </h2> </div>
+                            <div class="panel">
+                                <p class="text-light">  Zolve is a cross border fintech that enables fair access to global financial products. We understand that the needs of a global citizen like you with financial footprints in more than one country are different from those of local residents. Our aim to simplify your financial world. <br> Currently serving the India-U.S. corridor, we let you apply for a U.S. bank account and a U.S. credit card on Day 1. With a lightning fast set up process that you can initiate from India, minimal documentation and no application fees, Zolve helps you prepare for your financial life in the USA. </p>
+                            </div>
+                   </div>
+              </div>
+
+                <div class="dot-flex-wrap">
+                    <div class="dot-flex">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="dot-flex">
+                        <div class="accordion"><h2> Do I need an SSN or U.S. credit history to apply? </h2></div>
+                        <div class="panel">
+                            <p class="text-light"> Short answer - no and no. As you are new to the country, we know you may not have an SSN or U.S. credit history. But that shouldn’t stop you from starting your life on an equal footing in the U.S. With Zolve, you can apply for a U.S. Bank Account and U.S. Credit Card from India itself before you go with your passport and visa as identification documents. The process is entirely online, and approvals are fast. The debit and credit card will be delivered to your U.S. address after you arrive.  </p>
+                        </div>
+                    </div>
+                </div>
+               
+               <div class="dot-flex-wrap">
+                    <div class="dot-flex">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="dot-flex">
+                        <div class="accordion"><h2> Are there any upfront/membership fees I have to pay? </h2></div>
+                        <div class="panel">
+                            <p class="text-light"> Zolve Account & Credit Card has no application fees. Sounds too good to be true? We understand that moving abroad is a big financial undertaking, so we don't charge any application fee, annual fee or ask for any minimum balances. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dot-flex-wrap">
+                        <div class="dot-flex">
+                            <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="dot-flex">    
+                            <div class="accordion"><h2> Are there any upfront/membership fees I have to pay? </h2></div>
+                            <div class="panel">
+                                <p class="text-light"> Zolve Account & Credit Card has no application fees. Sounds too good to be true? We understand that moving abroad is a big financial undertaking, so we don't charge any application fee, annual fee or ask for any minimum balances. </p>
+                            </div>
+                        </div>
+                </div>
+             
+                <div class="dot-flex-wrap">
+                    <div class="dot-flex">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="dot-flex">
+                        <div class="accordion"><h2>  Is it safe? </h2></div>
+                        <div class="panel">
+                            <p class="text-light"> Absolutely. The Zolve Account is FDIC insured up to $250,000 through our partner bank. Moreover, our state of the art app allows you to freeze/unfreeze a card with just a click.  </p>
+                        </div>
+                    </div>
+                </div>
+              
+              <div class="dot-flex-wrap">
+                   <div class="dot-flex">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                   </div>
+                   <div class="dot-flex">
+                        <div class="accordion"><h2> Why should I use a credit card? </h2></div>
+                        <div class="panel">
+                            <p class="text-light">  Your forex card blocks your money upfront. And why use a debit card when you get some amazing rewards while spending the same amount on a Credit Card as well as build your credit score! </p>
+                        </div>
+                   </div>
+             </div>
+        </div>
+        <div class="faqs-image inline-photo show-on-scroll"> <img src="images/decor.svg"> </div>
+    </div>
+        <!-------------------faqs end----------------->
+        <!-------------------image start ----------------->
+        <div class="box-area inline-photo show-on-scroll">
+           <div class="box-flex inline-photo show-on-scroll"> 
+                <h1> What’s <span> new </span> withus </h1>
+                <h3> -Visit all blogs </h3>
+           </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="img-area line">
+                            <div class="single-img" style="background-image: url(images/x.jpg);"></div>
+                            <p> Long term effects of delaying your credit card bill payment </p>
+                        </div>
+                        <div class="read">
+                            <h2> -Read Now </h2>
+                            <img src="images/elem8.svg" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-area line">
+                            <div class="single-img" style="background-image: url(images/y.jpg);"></div>
+                            <p> Here’s what happens when you delay paying your credit card bill (the not-so-heavy effects) </p>
+                        </div>
+                        <div class="read">
+                            <h2> -Read Now </h2>
+                            <img src="images/elem8.svg" alt="image">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-area line">
+                            <div class="single-img" style="background-image: url(images/z.jpg);"></div>
+                            <p> What will makes up your Credit Score? </p>
+                        </div>
+                        <div class="read">
+                            <h2> -Read Now </h2>
+                            <img src="images/elem8.svg" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------image end ----------------->
+        <!-------------------support start----------------->
+        <div class="support-conversation">
+        <div class="support">
+            <div class="last-logo inline-photo show-on-scroll">
+                <img src="images/logo_dark_bg.svg" alt="image">
+            </div>
+            <div class="company-support">
+                <div class="career">
+                    <h3> Company </h3>
+                    <p> About </p>
+                    <p> Careers </p>
+                </div>
+
+                <div class="career">
+                    <h3> Support </h3>
+                    <p> Help Centre </p>
+                </div>
+
+                <div class="career">              
+                    <h3> Resources </h3>
+                    <p> Blog </p>
+                    <p> US Financial Dictionary </p>
+                </div>
+
+                <div class="career"> 
+                    <h3> Company </h3>
+                    <p> Terms & Conditions </p>
+                    <p> Privacy Policy </p>
+                    <p> E-Sign & Communication </p>
+                    <p> Authorization </p>
+                    <p> Cashback Offer T&C </p>        
+                </div>
+            </div>
+        </div>
+        <!-------------------support end ----------------->
+        <!-------------------conversation start ----------------->
+        <div class="conversation inline-photo show-on-scroll">
+                <div class="deposit">
+                    <div class="follow">
+                        <h2> START A CONVERSATION WITH US AT </h2>
+                        <h3> <i class="fa fa-envelope-o" aria-hidden="true"></i> hello@zolve.com </h3>
+                        <h4> <i class="fa fa-whatsapp" aria-hidden="true"></i> +91-9326553466</h4>
+                        <div class="follow-us">
+                            <p> FOLLOW US: </p>
+                            <p> <i class="fa fa-facebook" aria-hidden="true"></i> </p>
+                            <p> <i class="fa fa-linkedin" aria-hidden="true"></i> </p>
+                            <p> <i class="fa fa-instagram" aria-hidden="true"></i> </p>
+                            <p> <i class="fa fa-twitter" aria-hidden="true"></i> </p>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <h2> LOCATIONS </h2>
+                        <div class="area"> 
+                            <div class="location">
+                                <img src="images/city-banglore.svg" alt="image">
+                                <h5> Bangalore </h5>
+                            </div>
+                            <div class="location">
+                                <img src="images/city-sanfra.svg" alt="image">
+                                <h5> San Francisco </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fdic">
+                    <p> Zolve Innovations Inc. is a financial technology company, not a bank or lender. All banking products are provided by our partnering banks. </p>
+                    <p> Zolve Credit Cards are issued by Community Federal Savings Bank, Members FDIC pursuant to its license from Mastercard, and are subject to the terms of a <Span> Cardholder Agreement. </Span> Offers subject to credit approval. </p>
+                    <p> Zolve Debit Cards are issued by Community Federal Savings Bank, Member FDIC pursuant to its license with Mastercard, and are subject to the terms of a <span>  Deposit Account and Debit Card Agreement. </span>. Deposits are subject to FDIC insurance up to the legally permissible amount. </p>
+                </div>
+                <!-------------------copyright start----------------->
+                <div class="copyright">
+                    <p> © Copyright 2021 @ Zolve | All rights reserved </p>
+                </div>
+        <!-------------------copyright end ----------------->
+        </div>
+        </div>
+        <!-------------------conversation end ----------------->
+                 <!-------------------need help start----------------->
+                                 <div class="help"> 
+                                    <h2> <img src="images/chat-svg.png" alt="image"> <span> Need Help </span> </h2>
+                                </div>
+                    <!--------------------need help end ----------------->
+</div>
+<!--------------------js start----------------->
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+        <script src="task.js"></script>
+        <!---------------------js end----------------->
+<!---------------------page wrapper end----------------->
+</body>
+</html>
